@@ -1,0 +1,23 @@
+title: Awesome Global FDE
+description: >-
+  Curated resources, field practices, production cases, tools, and learning
+  paths for Forward Deployed Engineers and enterprise AI deployment teams.
+url: https://global-fde.github.io
+baseurl: /awesome-global-fde
+lang: en
+logo: /awesome-global-fde/assets/global-fde-cover.svg
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+author:
+  name: Global FDE
+  url: https://github.com/global-fde
+social:
+  name: Global FDE
+  links:
+    - https://github.com/global-fde
+github:
+  repository_url: https://github.com/global-fde/awesome-global-fde
+exclude:
+  - README.md

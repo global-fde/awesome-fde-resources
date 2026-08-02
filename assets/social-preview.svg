@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome Global FDE</title>
+  <desc id="desc">The open knowledge base for Forward Deployed Engineers and production AI teams.</desc>
+  <rect width="1280" height="640" fill="#121212"/>
+  <rect x="70" y="72" width="150" height="8" rx="4" fill="#FF5A36"/>
+  <text x="70" y="145" fill="#FFFDF9" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="2">GLOBAL FDE / OPEN KNOWLEDGE</text>
+  <text x="70" y="285" fill="#FFFDF9" font-family="Inter, Arial, sans-serif" font-size="82" font-weight="760" letter-spacing="-3">Awesome Global FDE</text>
+  <text x="70" y="365" fill="#F4EBDD" font-family="Inter, Arial, sans-serif" font-size="38">Resources, field practices, cases, and tools</text>
+  <text x="70" y="418" fill="#F4EBDD" font-family="Inter, Arial, sans-serif" font-size="38">for Forward Deployed Engineers.</text>
+  <path d="M70 515h630c115 0 180-55 180-150" fill="none" stroke="#6B6B68" stroke-width="16"/>
+  <path d="M845 325l58 41-58 41" fill="none" stroke="#FF5A36" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1210" y="565" text-anchor="end" fill="#FF5A36" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="700">From Frontier AI to Real-World Impact.</text>
+</svg>

@@ -1,0 +1,3239 @@
+schema_version: 1
+generated_on: '2026-08-02'
+repository_count: 200
+direct_fde_count: 65
+supporting_repository_count: 135
+category_counts:
+  getting-started: 85
+  best-practices: 25
+  case-studies: 15
+  tools: 75
+selection_note: Curated from GitHub search; prefer documentation, learning, cases, and FDE-relevant production tools.
+repositories:
+- name: bicced/ai-engineer-interview-handbook
+  url: https://github.com/bicced/ai-engineer-interview-handbook
+  description: Free, open-source AI engineer interview questions & handbook — Applied AI Engineer / Forward Deployed
+    Engineer (FDE), LLM, RAG, AI agents, evals, fine-tuning, AI system design (2026).
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  - evaluation
+  - rag
+  - mlops
+  - learning
+  primary_language: null
+  license: NOASSERTION
+  stars_snapshot: 5
+  updated_at: '2026-07-31T06:35:48Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: goday-org/FDE-Handbook
+  url: https://github.com/goday-org/FDE-Handbook
+  description: A production-ready handbook for Forward Deployed Engineers (FDEs). Covers enterprise landing zones,
+    VPC Service Controls, data auditing, multi-agent orchestration, and LLM evaluation (中英双语).
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  - evaluation
+  - learning
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 9
+  updated_at: '2026-07-13T16:36:01Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer
+  url: https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer
+  description: FDE（前沿部署工程师）从零入门指南（基于范冰《增长黑客》原书框架）
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - learning
+  primary_language: null
+  license: null
+  stars_snapshot: 1456
+  updated_at: '2026-08-02T15:14:39Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: bittush8789/ai-forward-deployed-engineer-zero-to-hero
+  url: https://github.com/bittush8789/ai-forward-deployed-engineer-zero-to-hero
+  description: 🚀 Complete Zero-to-Hero roadmap for becoming a Production-Ready AI Forward Deployed Engineer (AI
+    FDE). Learn Software Engineering, AI Engineering, MLOps, LLMOps, Agentic AI, AI Platform Engineering, Cloud,
+    Kubernetes, and Enterprise AI through hands-on projects, architecture designs, production deployments, and interview
+    preparation.
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  - enterprise-ai
+  - mlops
+  - learning
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 2
+  updated_at: '2026-07-16T21:19:30Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: pierpaolo28/Awesome-FDE-Roadmap
+  url: https://github.com/pierpaolo28/Awesome-FDE-Roadmap
+  description: 🚀 The definitive roadmap to becoming a Forward Deployment Engineer (FDE). Master AI Agents, Enterprise
+    Data Architecture, and Strategic Consulting. Bridging the gap between HQ and the field. Inspired by the "Delta"
+    role at Palantir, OpenAI, and Scale AI.
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  - learning
+  primary_language: null
+  license: MIT
+  stars_snapshot: 692
+  updated_at: '2026-08-02T14:07:36Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: libaice/Awesome-FDE
+  url: https://github.com/libaice/Awesome-FDE
+  description: A curated list of resources, companies, and skills for  Forward Deployed Engineers (FDEs)
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: null
+  license: MIT
+  stars_snapshot: 94
+  updated_at: '2026-07-30T02:09:20Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: dawei008/fde-book
+  url: https://github.com/dawei008/fde-book
+  description: OpenBook Vol II — Forward Deployed Engineer · AI 应用的落地工程学 · Outcome = Harness × Customer
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - learning
+  primary_language: HTML
+  license: null
+  stars_snapshot: 17
+  updated_at: '2026-08-02T09:15:55Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: liuhuanyong/FDEGreenBook
+  url: https://github.com/liuhuanyong/FDEGreenBook
+  description: 一个自包含的交互式网站，把 FDE（Forward Deployed Engineer，前线部署工程师）讲透：教程 + 游戏 + 画像测试三合一。
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - learning
+  primary_language: HTML
+  license: null
+  stars_snapshot: 13
+  updated_at: '2026-08-02T12:46:31Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: thecoder8890/forward-deployed-engineer-roadmap
+  url: https://github.com/thecoder8890/forward-deployed-engineer-roadmap
+  description: A practical roadmap to become a Forward Deployed Engineer, from coding and systems design to customer
+    problems, deployment, and impact.
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - learning
+  primary_language: null
+  license: NOASSERTION
+  stars_snapshot: 16
+  updated_at: '2026-08-01T17:26:34Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Tatendaz/langchain-fde-curriculum
+  url: https://github.com/Tatendaz/langchain-fde-curriculum
+  description: A 6-phase, deliverable-driven curriculum for building and shipping production-grade AI agents on
+    the LangChain / LangGraph / LangSmith stack — as a forward-deployed-engineering service.
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 1
+  updated_at: '2026-08-01T15:40:58Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: OpenFDEAI/OpenFDE
+  url: https://github.com/OpenFDEAI/OpenFDE
+  description: OpenFDE — the open knowledge hub & community for Forward Deployed Engineers. open-fde.com
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: Python
+  license: NOASSERTION
+  stars_snapshot: 30
+  updated_at: '2026-07-30T08:05:32Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: wwwweeia/palantir-aip-study
+  url: https://github.com/wwwweeia/palantir-aip-study
+  description: Palantir AIP 学习笔记 - Ontology、FDE、Enterprise AI Landing
+  category: getting-started
+  direct_fde: true
+  tags:
+  - enterprise-ai
+  primary_language: TypeScript
+  license: null
+  stars_snapshot: 9
+  updated_at: '2026-08-01T02:50:31Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Leading-AI-IO/the-forward-deployed-shift
+  url: https://github.com/Leading-AI-IO/the-forward-deployed-shift
+  description: 成果実装 ── FDEが示す、AIで「作る」が終わった世界の価値のありか / The Forward Deployed Shift — Where Value Survives When "Building"
+    Is Over
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: null
+  license: NOASSERTION
+  stars_snapshot: 4
+  updated_at: '2026-07-31T18:54:24Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: mlabonne/llm-course
+  url: https://github.com/mlabonne/llm-course
+  description: Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - learning
+  primary_language: null
+  license: Apache-2.0
+  stars_snapshot: 81377
+  updated_at: '2026-08-02T14:39:38Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: chiphuyen/aie-book
+  url: https://github.com/chiphuyen/aie-book
+  description: '[WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering
+    (Chip Huyen, 2025)'
+  category: getting-started
+  direct_fde: false
+  tags:
+  - learning
+  primary_language: Jupyter Notebook
+  license: null
+  stars_snapshot: 16833
+  updated_at: '2026-08-02T14:37:07Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: huggingface/agents-course
+  url: https://github.com/huggingface/agents-course
+  description: This repository contains the Hugging Face Agents Course.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  - learning
+  primary_language: MDX
+  license: Apache-2.0
+  stars_snapshot: 30598
+  updated_at: '2026-08-02T14:17:47Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: ombharatiya/ai-system-design-guide
+  url: https://github.com/ombharatiya/ai-system-design-guide
+  description: AI system design guide for engineers building production AI systems and evals.
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  - evaluation
+  - rag
+  - learning
+  primary_language: null
+  license: MIT
+  stars_snapshot: 2379
+  updated_at: '2026-08-02T14:12:02Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: aaronmeis/learn-forward-deployed-engineers
+  url: https://github.com/aaronmeis/learn-forward-deployed-engineers
+  description: Interactive guide to Forward Deployed Engineers — the enterprise AI deployment model
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - enterprise-ai
+  - learning
+  primary_language: HTML
+  license: null
+  stars_snapshot: 0
+  updated_at: '2026-07-29T08:25:24Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: interview-prep-guides/fdeinterviews.com
+  url: https://github.com/interview-prep-guides/fdeinterviews.com
+  description: Forward Deployed Engineer interview questions (FDE / FDSE / Applied AI / Solutions Engineer) — 500+
+    questions, 40 company interview loops, 96 concepts, expert answers. Free at fdeinterviews.com
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - learning
+  primary_language: null
+  license: null
+  stars_snapshot: 0
+  updated_at: '2026-06-15T00:39:38Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: landedjobs/awesome-ai-native-jobs
+  url: https://github.com/landedjobs/awesome-ai-native-jobs
+  description: 'The map of the AI-native job market: every new role (AI Engineer, GTM Engineer, FDE, RAG), real
+    salaries, skills, interview prep, and projects to land them. MIT.'
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - rag
+  primary_language: null
+  license: MIT
+  stars_snapshot: 3
+  updated_at: '2026-07-25T13:04:03Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: tractorjuice/arckit-fde
+  url: https://github.com/tractorjuice/arckit-fde
+  description: 'ArcKit Forward Deploy Engineering (FDE): embedded architecture engineering for UK public sector
+    programmes. £25K/week first sprint with Green Book, Orange Book, GDS and TCoP evidence alignment.'
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - learning
+  primary_language: HTML
+  license: null
+  stars_snapshot: 2
+  updated_at: '2026-07-25T10:20:32Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: a10x-dev/awesome-forward-deployed-engineer
+  url: https://github.com/a10x-dev/awesome-forward-deployed-engineer
+  description: A curated list of resources for becoming and thriving as a Forward Deployed Engineer (FDE) — the
+    fastest-growing role in AI.
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  primary_language: null
+  license: null
+  stars_snapshot: 0
+  updated_at: '2026-07-16T16:25:01Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: bittush8789/ai-forward-deployed-engineer-foundations
+  url: https://github.com/bittush8789/ai-forward-deployed-engineer-foundations
+  description: A comprehensive roadmap to master AI Forward Deployed Engineering—from software engineering and AI
+    to enterprise consulting, customer delivery, and production-grade AI solutions. 🚀
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - learning
+  primary_language: null
+  license: null
+  stars_snapshot: 1
+  updated_at: '2026-07-15T23:21:20Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: sabujghorai/Linux-Commands
+  url: https://github.com/sabujghorai/Linux-Commands
+  description: Welcome to my Linux Learning Journey repository 🚀  This repository documents my daily progress as
+    I learn Linux from the ground up while working toward becoming a Forward Deployed Engineer, DevOps Engineer,
+    and strong Software Engineer.
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: null
+  license: null
+  stars_snapshot: 1
+  updated_at: '2026-07-23T13:46:32Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: weissmanntobi-del/Forward_Deployed_Engineer_Material
+  url: https://github.com/weissmanntobi-del/Forward_Deployed_Engineer_Material
+  description: I have shared some content about Forward Deployment Engineer
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: null
+  license: MIT
+  stars_snapshot: 46
+  updated_at: '2026-08-02T13:29:58Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: sasrivas25/machine-coding-lld-interview-problems
+  url: https://github.com/sasrivas25/machine-coding-lld-interview-problems
+  description: Gronex — Machine coding, LLD, repository-based, FDE, AI-researcher & production-incident interview
+    problems. Solve each in a real backend repo against failing tests, free at gronex.org
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: null
+  license: null
+  stars_snapshot: 8
+  updated_at: '2026-08-01T18:14:07Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: vkorost/forward-deployed-engineer-2026
+  url: https://github.com/vkorost/forward-deployed-engineer-2026
+  description: 'A Q2 2026 conversion manual for the Forward Deployed Engineer role: what the work is, why the role
+    exists, how the interview runs, and how to land the job.'
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: null
+  license: NOASSERTION
+  stars_snapshot: 1
+  updated_at: '2026-06-02T06:44:51Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: s-andthat/palantir-ai-fde-library
+  url: https://github.com/s-andthat/palantir-ai-fde-library
+  description: A community prompt and agent architecture library for Palantir's AI FDE.
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  primary_language: null
+  license: MIT
+  stars_snapshot: 5
+  updated_at: '2026-05-29T17:53:14Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Leading-AI-IO/the-ai-strategist
+  url: https://github.com/Leading-AI-IO/the-ai-strategist
+  description: The AI Strategist — Defining a new role at the intersection of AI, business strategy, and execution.
+    A structural analysis of why this role is missing and what it requires. / AIストラテジスト — AI・事業戦略・実行の交差点に立つ新しい役割の定義。なぜこの役割が不在なのか、何が求められるのかを構造的に論証するOSS書籍。
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: null
+  license: NOASSERTION
+  stars_snapshot: 4
+  updated_at: '2026-07-31T18:39:27Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Ruinius/fde-memo
+  url: https://github.com/Ruinius/fde-memo
+  description: This is a memo about AI FDEs based on my observations and experiences written with agentic AI support.
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 2
+  updated_at: '2026-05-21T16:47:49Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: microsoft/d365cc-fde
+  url: https://github.com/microsoft/d365cc-fde
+  description: Sharing experience from the real projects
+  category: getting-started
+  direct_fde: true
+  tags:
+  - getting-started
+  primary_language: PowerShell
+  license: MIT
+  stars_snapshot: 28
+  updated_at: '2026-07-29T16:16:03Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: j463853819-dot/fde-growth-plan
+  url: https://github.com/j463853819-dot/fde-growth-plan
+  description: 主要存储fde相关的仓库
+  category: getting-started
+  direct_fde: true
+  tags:
+  - getting-started
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 13
+  updated_at: '2026-07-23T00:26:27Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: landedjobs/forward-deployed-engineer-jobs
+  url: https://github.com/landedjobs/forward-deployed-engineer-jobs
+  description: Curated Forward-Deployed Engineer (FDE) roles at AI companies, with salaries, 2026. By Landed.
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: null
+  license: MIT
+  stars_snapshot: 2
+  updated_at: '2026-07-25T00:31:06Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: inbusiness23/fde-skill
+  url: https://github.com/inbusiness23/fde-skill
+  description: Privacy-safe forward-deployed engineering skills for Claude Code, Codex, and AGENTS.md-compatible
+    agents
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  primary_language: null
+  license: MIT
+  stars_snapshot: 1
+  updated_at: '2026-07-22T13:35:51Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: hswzhigao/fde-career-planner
+  url: https://github.com/hswzhigao/fde-career-planner
+  description: 🎯 程序员转型 Forward Deployed Engineer (FDE) 的个人规划工作台 — 能力诊断、AI 学习路线、每周追踪、求职准备、AI 顾问对话 | Next.js + DeepSeek
+    + MySQL
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  - rag
+  primary_language: TypeScript
+  license: null
+  stars_snapshot: 1
+  updated_at: '2026-07-19T07:39:04Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: fruteroclub/nebius-webinar-series-july-2026
+  url: https://github.com/fruteroclub/nebius-webinar-series-july-2026
+  description: Artifacts for the July 2026 Nebius FDE Trainer webinar series
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: null
+  license: null
+  stars_snapshot: 1
+  updated_at: '2026-07-15T02:39:21Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: aminilia/GeoSpeed
+  url: https://github.com/aminilia/GeoSpeed
+  description: Full-stack geospatial AI and Auto FDE portfolio platform for speed-limit intelligence, map-quality
+    validation, partner issue triage, and sample/open-data-compatible pipelines.
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 1
+  updated_at: '2026-07-02T19:02:12Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: respectfulnrespected59-source/fde-portfolio
+  url: https://github.com/respectfulnrespected59-source/fde-portfolio
+  description: Forward Deployed Engineer portfolio — Rob Hadden, Jr.
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: HTML
+  license: null
+  stars_snapshot: 0
+  updated_at: '2026-07-30T16:48:06Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: 8141717-prog/wanmu-fde
+  url: https://github.com/8141717-prog/wanmu-fde
+  description: 顽木工坊 FDE方法论库
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: null
+  license: null
+  stars_snapshot: 0
+  updated_at: '2026-07-24T17:44:18Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: nbajpai-code/fde
+  url: https://github.com/nbajpai-code/fde
+  description: forward deployment engineer
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: null
+  license: null
+  stars_snapshot: 0
+  updated_at: '2026-07-12T17:54:37Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: fdestar/FDESTAR
+  url: https://github.com/fdestar/FDESTAR
+  description: AI STUDY,FDE STAR FOR EVE
+  category: getting-started
+  direct_fde: true
+  tags:
+  - getting-started
+  primary_language: HTML
+  license: null
+  stars_snapshot: 0
+  updated_at: '2026-07-07T10:37:35Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: AmielWexler/claude-fde
+  url: https://github.com/AmielWexler/claude-fde
+  description: Foundry AI FDE and Claude code integration
+  category: getting-started
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: JavaScript
+  license: null
+  stars_snapshot: 0
+  updated_at: '2026-04-27T15:14:05Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: PacktPublishing/LLM-Engineers-Handbook
+  url: https://github.com/PacktPublishing/LLM-Engineers-Handbook
+  description: 'The LLM''s practical guide: From the fundamentals to deploying advanced LLM and RAG apps to AWS
+    using LLMOps best practices'
+  category: getting-started
+  direct_fde: false
+  tags:
+  - evaluation
+  - rag
+  - mlops
+  - learning
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 5263
+  updated_at: '2026-08-02T10:29:12Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: bishwaghimire/ai-learning-roadmaps
+  url: https://github.com/bishwaghimire/ai-learning-roadmaps
+  description: A complete, structured hub for learning Artificial Intelligence — covering AI, Machine Learning,
+    Deep Learning, and Data Science with books, roadmaps, and curated resources from beginner to advanced.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - rag
+  - learning
+  primary_language: null
+  license: MIT
+  stars_snapshot: 922
+  updated_at: '2026-08-02T04:32:00Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: predibase/llm_distillation_playbook
+  url: https://github.com/predibase/llm_distillation_playbook
+  description: Best practices for distilling large language models.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - learning
+  primary_language: Jupyter Notebook
+  license: null
+  stars_snapshot: 637
+  updated_at: '2026-07-31T09:44:38Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: mlacademyai/Machine-Learning-Roadmap
+  url: https://github.com/mlacademyai/Machine-Learning-Roadmap
+  description: Machine Learning Roadmap for 2025. Step-by-step guide to become a Data Scientist.  Covers the best
+    free learning resources from Python basics to Deep Learning and MLOps.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - mlops
+  - learning
+  primary_language: null
+  license: Apache-2.0
+  stars_snapshot: 364
+  updated_at: '2026-07-30T21:39:03Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: SkalskiP/courses
+  url: https://github.com/SkalskiP/courses
+  description: This repository is a curated collection of links to various courses and resources about Artificial
+    Intelligence (AI)
+  category: getting-started
+  direct_fde: false
+  tags:
+  - mlops
+  - learning
+  primary_language: Python
+  license: null
+  stars_snapshot: 6479
+  updated_at: '2026-08-02T08:53:45Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: decodingai-magazine/llm-twin-course
+  url: https://github.com/decodingai-magazine/llm-twin-course
+  description: '🤖 𝗟𝗲𝗮𝗿𝗻 for 𝗳𝗿𝗲𝗲 how to 𝗯𝘂𝗶𝗹𝗱 an end-to-end 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻-𝗿𝗲𝗮𝗱𝘆 𝗟𝗟𝗠 & 𝗥𝗔𝗚 𝘀𝘆𝘀𝘁𝗲𝗺 using 𝗟𝗟𝗠𝗢𝗽𝘀 best
+    practices: ~ 𝘴𝘰𝘶𝘳𝘤𝘦 𝘤𝘰𝘥𝘦 + 12 𝘩𝘢𝘯𝘥𝘴-𝘰𝘯 𝘭𝘦𝘴𝘴𝘰𝘯𝘴'
+  category: getting-started
+  direct_fde: false
+  tags:
+  - rag
+  - mlops
+  - learning
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 4380
+  updated_at: '2026-08-02T02:34:01Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: VersusControl/devops-ai-guidelines
+  url: https://github.com/VersusControl/devops-ai-guidelines
+  description: First AI Journey for DevOps - with comprehensive learning paths, practical tips, and enterprise guidelines
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  - mcp
+  - learning
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 1377
+  updated_at: '2026-08-02T14:03:06Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: mikeroyal/Self-Hosting-Guide
+  url: https://github.com/mikeroyal/Self-Hosting-Guide
+  description: Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing
+    software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant,
+    and Networking.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - observability
+  - learning
+  primary_language: Dockerfile
+  license: null
+  stars_snapshot: 22138
+  updated_at: '2026-08-02T15:09:15Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: MLOps-Courses/mlops-coding-course
+  url: https://github.com/MLOps-Courses/mlops-coding-course
+  description: Learn how to create, develop, and maintain a state-of-the-art MLOps code base
+  category: getting-started
+  direct_fde: false
+  tags:
+  - mlops
+  - learning
+  primary_language: null
+  license: CC-BY-4.0
+  stars_snapshot: 734
+  updated_at: '2026-08-01T01:50:52Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: bryanyzhu/agentic-ai-system-course
+  url: https://github.com/bryanyzhu/agentic-ai-system-course
+  description: Use agent to learn agent - A skeleton course on how to design, build, and operate production AI agents
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  - learning
+  primary_language: JavaScript
+  license: MIT
+  stars_snapshot: 556
+  updated_at: '2026-08-02T08:27:51Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: MinhNguyenDS/AI-pdf-books
+  url: https://github.com/MinhNguyenDS/AI-pdf-books
+  description: The AI/Data book repository for AI Engineers, ML Engineers, LLMOps, MLOps, and Data Scientists
+  category: getting-started
+  direct_fde: false
+  tags:
+  - mlops
+  - learning
+  primary_language: null
+  license: MIT
+  stars_snapshot: 124
+  updated_at: '2026-08-02T11:10:50Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: superiorlu/AITreasureBox
+  url: https://github.com/superiorlu/AITreasureBox
+  description: 🤖 Automatically collected AI repos, tools, websites, papers & tutorials. 实用AI百宝箱 💎
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  - mcp
+  - learning
+  primary_language: Ruby
+  license: GPL-3.0
+  stars_snapshot: 841
+  updated_at: '2026-08-02T14:51:18Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Moataz-Elmesmary/Data-Science-Roadmap
+  url: https://github.com/Moataz-Elmesmary/Data-Science-Roadmap
+  description: Data Science Roadmap from A to Z
+  category: getting-started
+  direct_fde: false
+  tags:
+  - learning
+  primary_language: null
+  license: MIT
+  stars_snapshot: 4332
+  updated_at: '2026-08-02T09:28:52Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: wondelai/skills
+  url: https://github.com/wondelai/skills
+  description: Wondel.ai Agent Skills — Business, Marketing, UX & Coding Frameworks from Bestselling Books. 50 skills
+    + 12 guided journeys for Claude Code, Codex, Cursor & other agentskills.io agents.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  - learning
+  primary_language: Shell
+  license: MIT
+  stars_snapshot: 1816
+  updated_at: '2026-08-02T10:27:17Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: jacopotagliabue/MLSys-NYU-2022
+  url: https://github.com/jacopotagliabue/MLSys-NYU-2022
+  description: Slides, scripts and materials for the Machine Learning in Finance Course at NYU Tandon, 2022
+  category: getting-started
+  direct_fde: false
+  tags:
+  - mlops
+  - learning
+  primary_language: Jupyter Notebook
+  license: MIT
+  stars_snapshot: 558
+  updated_at: '2026-07-28T09:42:32Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: visenger/awesome-mlops
+  url: https://github.com/visenger/awesome-mlops
+  description: A curated list of references for MLOps
+  category: getting-started
+  direct_fde: false
+  tags:
+  - mlops
+  primary_language: null
+  license: null
+  stars_snapshot: 14120
+  updated_at: '2026-08-02T14:33:54Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: paiml/practical-mlops-book
+  url: https://github.com/paiml/practical-mlops-book
+  description: '[Book-2021] Practical MLOps O''Reilly Book'
+  category: getting-started
+  direct_fde: false
+  tags:
+  - mlops
+  - learning
+  primary_language: Jupyter Notebook
+  license: null
+  stars_snapshot: 981
+  updated_at: '2026-07-22T16:06:19Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: genieincodebottle/generative-ai
+  url: https://github.com/genieincodebottle/generative-ai
+  description: Comprehensive resources on Generative AI, including a detailed roadmap, projects, use cases, interview
+    preparation, and coding preparation.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - mcp
+  - rag
+  - learning
+  - cases
+  primary_language: Jupyter Notebook
+  license: MIT
+  stars_snapshot: 2582
+  updated_at: '2026-08-02T13:24:43Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: business-science/awesome-generative-ai-data-scientist
+  url: https://github.com/business-science/awesome-generative-ai-data-scientist
+  description: A curated list of 100+ resources for building and deploying generative AI specifically focusing on
+    helping you become a Generative AI Data Scientist with LLMs
+  category: getting-started
+  direct_fde: false
+  tags:
+  - getting-started
+  primary_language: null
+  license: null
+  stars_snapshot: 1578
+  updated_at: '2026-08-02T06:37:36Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: noahgift/Python-MLOps-Cookbook
+  url: https://github.com/noahgift/Python-MLOps-Cookbook
+  description: 'This is an example of a Containerized Flask Application that can deploy to many target environments
+    including:  AWS, GCP and Azure.'
+  category: getting-started
+  direct_fde: false
+  tags:
+  - mlops
+  - learning
+  - cases
+  primary_language: Jupyter Notebook
+  license: CC0-1.0
+  stars_snapshot: 435
+  updated_at: '2026-05-31T11:37:41Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: microsoft/genaiops-promptflow-template
+  url: https://github.com/microsoft/genaiops-promptflow-template
+  description: GenAIOps with Prompt Flow is a "GenAIOps template and guidance" to help you build LLM-infused apps
+    using Prompt Flow. It offers a range of features including Centralized Code Hosting, Lifecycle Management, Variant
+    and Hyperparameter Experimentation, A/B Deployment, reporting for all runs and experiments and so on.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - evaluation
+  - mlops
+  primary_language: Python
+  license: NOASSERTION
+  stars_snapshot: 363
+  updated_at: '2026-08-01T16:24:16Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: mahimairaja/voiceai
+  url: https://github.com/mahimairaja/voiceai
+  description: Set of 📝 with 🔗 to help those building Voice AI agents 🎙️🤖
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  primary_language: null
+  license: MIT
+  stars_snapshot: 305
+  updated_at: '2026-07-28T12:27:32Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: JSONbored/awesome-claude
+  url: https://github.com/JSONbored/awesome-claude
+  description: 'HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents,
+    MCP servers, skills, commands, hooks, rules, guides, tools, jobs, Raycast feeds, static data exports, and an
+    npm MCP package.'
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  - mcp
+  - learning
+  primary_language: MDX
+  license: MIT
+  stars_snapshot: 286
+  updated_at: '2026-08-02T04:31:31Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: ARUNAGIRINATHAN-K/awesome-ai-agents-2026
+  url: https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026
+  description: Awesome AI Agents for 2026 - 300+ AI Agents, Frameworks & Coding • Creative • Voice • Research •
+    Enterprise. Comparison guides, benchmarks & deep dives
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - learning
+  primary_language: null
+  license: NOASSERTION
+  stars_snapshot: 282
+  updated_at: '2026-08-02T03:47:24Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Meirtz/Awesome-Context-Engineering
+  url: https://github.com/Meirtz/Awesome-Context-Engineering
+  description: '🔥 Comprehensive survey on Context Engineering: from prompt engineering to production-grade AI systems.
+    hundreds of papers, frameworks, and  implementation guides for LLMs and AI agents.'
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  - rag
+  - learning
+  primary_language: null
+  license: MIT
+  stars_snapshot: 3264
+  updated_at: '2026-08-02T05:49:20Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: decodingai-magazine/second-brain-ai-assistant-course
+  url: https://github.com/decodingai-magazine/second-brain-ai-assistant-course
+  description: Learn to build your Second Brain AI assistant with LLMs, agents, RAG, fine-tuning, LLMOps and AI
+    systems techniques.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  - rag
+  - mlops
+  - learning
+  primary_language: Jupyter Notebook
+  license: MIT
+  stars_snapshot: 2944
+  updated_at: '2026-08-02T14:22:34Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: kelvins/awesome-mlops
+  url: https://github.com/kelvins/awesome-mlops
+  description: ':sunglasses: A curated list of awesome MLOps tools'
+  category: getting-started
+  direct_fde: false
+  tags:
+  - mlops
+  primary_language: Python
+  license: null
+  stars_snapshot: 5228
+  updated_at: '2026-08-02T06:55:42Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: onejune2018/Awesome-LLM-Eval
+  url: https://github.com/onejune2018/Awesome-LLM-Eval
+  description: 'Awesome-LLM-Eval: a curated list of tools, datasets/benchmark, demos, leaderboard, papers, docs
+    and models, mainly for Evaluation on LLMs.  一个由工具、基准/数据、演示、排行榜和大模型等组成的精选列表，主要面向基础大模型评测，旨在探求生成式AI的技术边界.'
+  category: getting-started
+  direct_fde: false
+  tags:
+  - evaluation
+  - rag
+  - cases
+  primary_language: null
+  license: MIT
+  stars_snapshot: 654
+  updated_at: '2026-07-28T06:07:07Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: curiousily/AI-Bootcamp
+  url: https://github.com/curiousily/AI-Bootcamp
+  description: Self-paced bootcamp on Generative AI. Tutorials on ML fundamentals, Ollama, LLMs, RAGs, LangChain,
+    LangGraph, Fine-tuning, DSPy & AI Agents (CrewAI), (Using ChatGPT, gpt-oss, Claude, Qwen, Gemma, Llama, Gemini)
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  - rag
+  - learning
+  primary_language: Jupyter Notebook
+  license: MIT
+  stars_snapshot: 928
+  updated_at: '2026-08-02T03:43:14Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: anmolksachan/AI-ML-Free-Resources-for-Security-and-Prompt-Injection
+  url: https://github.com/anmolksachan/AI-ML-Free-Resources-for-Security-and-Prompt-Injection
+  description: AI/ML Pentesting Roadmap for Beginners
+  category: getting-started
+  direct_fde: false
+  tags:
+  - security
+  - learning
+  primary_language: null
+  license: null
+  stars_snapshot: 710
+  updated_at: '2026-08-02T13:23:12Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: keli-wen/agentic-harness-patterns-skill
+  url: https://github.com/keli-wen/agentic-harness-patterns-skill
+  description: Agent skill for harness engineering — memory, permissions, context engineering, multi-agent coordination.
+    Distilled from Claude Code, with Codex CLI and Gemini CLI on the roadmap. EN/ZH. Install via npx skills add.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  - learning
+  primary_language: null
+  license: MIT
+  stars_snapshot: 300
+  updated_at: '2026-07-31T08:35:17Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Hyraze/collective-ai-tools
+  url: https://github.com/Hyraze/collective-ai-tools
+  description: Search across curated tools, MCP servers, prompts, skills, and trending repos, one query, every corner
+    of the ecosystem.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - mcp
+  primary_language: TypeScript
+  license: MIT
+  stars_snapshot: 223
+  updated_at: '2026-08-02T14:02:51Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: ashishps1/learn-ai-engineering
+  url: https://github.com/ashishps1/learn-ai-engineering
+  description: Learn AI and LLMs from scratch using free resources
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  - mcp
+  - rag
+  primary_language: null
+  license: GPL-3.0
+  stars_snapshot: 5892
+  updated_at: '2026-08-02T14:22:48Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: CoderSJX/AI-Resources-Central
+  url: https://github.com/CoderSJX/AI-Resources-Central
+  description: Bringing together outstanding artificial intelligence (AI) open source projects from around the world.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  primary_language: null
+  license: MIT
+  stars_snapshot: 1237
+  updated_at: '2026-08-01T16:54:57Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: ArturoNereu/AI-Study-Group
+  url: https://github.com/ArturoNereu/AI-Study-Group
+  description: Resources to learn AI
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  primary_language: null
+  license: null
+  stars_snapshot: 1195
+  updated_at: '2026-08-01T22:35:42Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: openbestof/awesome-ai
+  url: https://github.com/openbestof/awesome-ai
+  description: A curated list of awesome AI tools, frameworks, api, software and resources.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - getting-started
+  primary_language: null
+  license: null
+  stars_snapshot: 580
+  updated_at: '2026-08-02T01:04:36Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: viveknaskar/everything-ai-ml
+  url: https://github.com/viveknaskar/everything-ai-ml
+  description: A curated collection of learning resources for Generative AI, Machine Learning, Agentic AI, LLMs,
+    RAG, Fine-tuning, MLOps, and more.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - agents
+  - rag
+  - mlops
+  primary_language: TypeScript
+  license: MIT
+  stars_snapshot: 436
+  updated_at: '2026-08-01T16:56:53Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: dair-ai/MLOPs-Primer
+  url: https://github.com/dair-ai/MLOPs-Primer
+  description: A collection of resources to learn about MLOPs.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - mlops
+  primary_language: null
+  license: null
+  stars_snapshot: 969
+  updated_at: '2026-07-22T15:26:16Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: aza-ali/awesome-ai-product-management
+  url: https://github.com/aza-ali/awesome-ai-product-management
+  description: 🤖 Resources for AI product managers.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - getting-started
+  primary_language: null
+  license: null
+  stars_snapshot: 147
+  updated_at: '2026-08-02T12:30:02Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: PrinceSinghhub/Ultimate-AI-Engineer-Roadmap-2026
+  url: https://github.com/PrinceSinghhub/Ultimate-AI-Engineer-Roadmap-2026
+  description: Ultimate AI Engineer Roadmap 2026 - built specifically for your context as an AI Architect building
+    PrinceSinghAI, PrinceSinghDev, Multi-LLM orchestration, RoadmapAI, CodeLLM, and AskAI, Global AI Search
+  category: getting-started
+  direct_fde: false
+  tags:
+  - learning
+  primary_language: null
+  license: MIT
+  stars_snapshot: 783
+  updated_at: '2026-08-02T15:11:54Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: lehoanglong95/rag-all-in-one
+  url: https://github.com/lehoanglong95/rag-all-in-one
+  description: 🧠 Guide to Building RAG (Retrieval-Augmented Generation) Applications
+  category: getting-started
+  direct_fde: false
+  tags:
+  - rag
+  - learning
+  primary_language: null
+  license: null
+  stars_snapshot: 317
+  updated_at: '2026-07-30T07:27:40Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: youssefHosni/LLM-Open-University-From-Begineer-to-Advanced
+  url: https://github.com/youssefHosni/LLM-Open-University-From-Begineer-to-Advanced
+  description: A complete roadmap to master LLMs from absolute beginners to advanced
+  category: getting-started
+  direct_fde: false
+  tags:
+  - learning
+  primary_language: null
+  license: null
+  stars_snapshot: 459
+  updated_at: '2026-08-01T17:49:18Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: microsoft/mcp-for-beginners
+  url: https://github.com/microsoft/mcp-for-beginners
+  description: This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world,
+    cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it
+    focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to
+    service orchestration.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - security
+  - mcp
+  - cases
+  primary_language: Jupyter Notebook
+  license: MIT
+  stars_snapshot: 16881
+  updated_at: '2026-08-02T13:10:45Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: suboss87/FDEOps
+  url: https://github.com/suboss87/FDEOps
+  description: 'Second brain for Forward Deployed Engineers: engagement memory + execution skills across discovery,
+    delivery, and handoff.'
+  category: best-practices
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  - learning
+  primary_language: JavaScript
+  license: MIT
+  stars_snapshot: 245
+  updated_at: '2026-07-31T06:10:27Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: yeasy/forward_deployed_engineering_guide
+  url: https://github.com/yeasy/forward_deployed_engineering_guide
+  description: 前线部署工程最佳实践指南 | Best Practice of Forward Deployed Engineering
+  category: best-practices
+  direct_fde: true
+  tags:
+  - fde
+  - learning
+  primary_language: Python
+  license: null
+  stars_snapshot: 36
+  updated_at: '2026-08-01T17:40:35Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: EthicalML/awesome-production-machine-learning
+  url: https://github.com/EthicalML/awesome-production-machine-learning
+  description: A curated list of awesome open source libraries to deploy, monitor, version and scale your machine
+    learning
+  category: best-practices
+  direct_fde: false
+  tags:
+  - observability
+  - mlops
+  primary_language: null
+  license: MIT
+  stars_snapshot: 20816
+  updated_at: '2026-08-02T15:09:41Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: NirDiamant/agents-towards-production
+  url: https://github.com/NirDiamant/agents-towards-production
+  description: End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise
+    deployment.
+  category: best-practices
+  direct_fde: false
+  tags:
+  - agents
+  - observability
+  - mcp
+  - rag
+  - mlops
+  - learning
+  primary_language: Jupyter Notebook
+  license: NOASSERTION
+  stars_snapshot: 21226
+  updated_at: '2026-08-02T14:43:37Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: raghu-007/zero-trust-ai-proxy
+  url: https://github.com/raghu-007/zero-trust-ai-proxy
+  description: Forward Deployed Engineering (FDE) architecture for secure, audited AI Agent deployments.
+  category: best-practices
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 4
+  updated_at: '2026-07-21T23:32:12Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: dlxeva/fde-operator-os
+  url: https://github.com/dlxeva/fde-operator-os
+  description: An operator-grade Codex skill for forward deployed engineers and applied AI delivery leads to qualify
+    AI opportunities, model real-world operations, and design delivery-ready pilot loops.
+  category: best-practices
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 10
+  updated_at: '2026-08-01T05:13:07Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Prompthon-IO/agent-systems-handbook
+  url: https://github.com/Prompthon-IO/agent-systems-handbook
+  description: 'A practical AI agents handbook covering agent systems, agentic workflows, LangGraph, MCP/A2A, context
+    engineering, agent memory, evaluation, observability, and multi-agent architecture. Current trend focus: Gemini
+    Interactions API and managed agents, emerging agent runtimes, and production AI workflow patterns.'
+  category: best-practices
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - observability
+  - mcp
+  - rag
+  - learning
+  primary_language: MDX
+  license: NOASSERTION
+  stars_snapshot: 326
+  updated_at: '2026-07-31T04:31:54Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: ai-boost/awesome-harness-engineering
+  url: https://github.com/ai-boost/awesome-harness-engineering
+  description: 'Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permissions,
+    observability, and orchestration.'
+  category: best-practices
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - observability
+  - mcp
+  primary_language: Python
+  license: NOASSERTION
+  stars_snapshot: 3352
+  updated_at: '2026-08-02T15:02:25Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: rocketride-org/rocketride-server
+  url: https://github.com/rocketride-org/rocketride-server
+  description: High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug,
+    and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all from your
+    IDE. Includes VS Code extension, TypeScript/Python SDKs, and Docker deployment.
+  category: best-practices
+  direct_fde: false
+  tags:
+  - agents
+  - mcp
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 5549
+  updated_at: '2026-08-02T09:11:36Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: benchflow-ai/awesome-evals
+  url: https://github.com/benchflow-ai/awesome-evals
+  description: A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blogs,
+    talks, tools, benchmarks. Maintained by BenchFlow.
+  category: best-practices
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  primary_language: null
+  license: NOASSERTION
+  stars_snapshot: 780
+  updated_at: '2026-08-02T14:26:50Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Sri-Krishna-V/awesome-adk-agents
+  url: https://github.com/Sri-Krishna-V/awesome-adk-agents
+  description: 'Curated collection of AI agents built with Google’s Agent Development Kit (ADK): templates, best
+    practices, and production-ready examples for research, business, automation, education, and more.'
+  category: best-practices
+  direct_fde: false
+  tags:
+  - agents
+  - cases
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 334
+  updated_at: '2026-08-01T09:18:51Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: truera/trulens
+  url: https://github.com/truera/trulens
+  description: Evaluation and Tracking for LLM Experiments and AI Agents
+  category: best-practices
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - observability
+  - mlops
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 3477
+  updated_at: '2026-07-31T15:09:24Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: uptrain-ai/uptrain
+  url: https://github.com/uptrain-ai/uptrain
+  description: UpTrain is an open-source unified platform to evaluate and improve Generative AI applications. We
+    provide grades for 20+ preconfigured checks (covering language, code, embedding use-cases), perform root cause
+    analysis on failure cases and give insights on how to resolve them.
+  category: best-practices
+  direct_fde: false
+  tags:
+  - evaluation
+  - observability
+  - mlops
+  - cases
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 2356
+  updated_at: '2026-07-28T17:01:27Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Puliczek/awesome-mcp-security
+  url: https://github.com/Puliczek/awesome-mcp-security
+  description: 🔥🔒 Awesome MCP (Model Context Protocol) Security 🖥️
+  category: best-practices
+  direct_fde: false
+  tags:
+  - security
+  - mcp
+  primary_language: null
+  license: null
+  stars_snapshot: 725
+  updated_at: '2026-08-01T01:48:04Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: codejunkie99/graph-engineering
+  url: https://github.com/codejunkie99/graph-engineering
+  description: 'Graph engineering for AI agents: the 9-stage knowledge-graph pipeline (translated from SEU''s graduate
+    course) + task-graph orchestration patterns, as a Claude skill with teaching mode and paste-ready workflows'
+  category: best-practices
+  direct_fde: false
+  tags:
+  - agents
+  - learning
+  primary_language: null
+  license: MIT
+  stars_snapshot: 271
+  updated_at: '2026-08-02T14:43:27Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: 0xNyk/awesome-agent-cortex
+  url: https://github.com/0xNyk/awesome-agent-cortex
+  description: Curated map of AI agent frameworks, protocols, runtimes, skills, memory, identity, security, evaluation,
+    and commerce.
+  category: best-practices
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - security
+  - mcp
+  primary_language: JavaScript
+  license: CC0-1.0
+  stars_snapshot: 198
+  updated_at: '2026-07-30T20:22:31Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: ruvnet/ruflo
+  url: https://github.com/ruvnet/ruflo
+  description: 🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous
+    workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration,
+    and native Claude Code / Codex / Hermes and many more Integrated
+  category: best-practices
+  direct_fde: false
+  tags:
+  - agents
+  - mcp
+  - rag
+  primary_language: TypeScript
+  license: MIT
+  stars_snapshot: 66823
+  updated_at: '2026-08-02T14:39:38Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: requie/AI-Red-Teaming-Guide
+  url: https://github.com/requie/AI-Red-Teaming-Guide
+  description: A comprehensive guide to adversarial testing and security evaluation of AI systems, helping organizations
+    identify vulnerabilities before attackers exploit them.
+  category: best-practices
+  direct_fde: false
+  tags:
+  - evaluation
+  - security
+  - learning
+  primary_language: null
+  license: null
+  stars_snapshot: 776
+  updated_at: '2026-08-02T13:42:03Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: growthxai/output
+  url: https://github.com/growthxai/output
+  description: The open-source TypeScript framework for building AI workflows and agents. Designed for Claude Code
+    describe what you want, Claude builds it, with all the best practices already in place.
+  category: best-practices
+  direct_fde: false
+  tags:
+  - agents
+  primary_language: JavaScript
+  license: Apache-2.0
+  stars_snapshot: 427
+  updated_at: '2026-08-01T17:35:46Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: lizhe2004/Awesome-LLM-RAG-Application
+  url: https://github.com/lizhe2004/Awesome-LLM-RAG-Application
+  description: the resources about the application based on LLM with RAG pattern
+  category: best-practices
+  direct_fde: false
+  tags:
+  - rag
+  primary_language: null
+  license: null
+  stars_snapshot: 1642
+  updated_at: '2026-07-29T18:32:53Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: vllm-project/guidellm
+  url: https://github.com/vllm-project/guidellm
+  description: Evaluate and Enhance Your LLM Deployments for Real-World Inference Needs
+  category: best-practices
+  direct_fde: false
+  tags:
+  - learning
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 1460
+  updated_at: '2026-08-02T14:11:13Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: VoltAgent/awesome-ai-agent-papers
+  url: https://github.com/VoltAgent/awesome-ai-agent-papers
+  description: A curated collection of AI agent research papers released in 2026, covering agent engineering, memory,
+    evaluation, workflows, and autonomous systems.
+  category: best-practices
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - rag
+  primary_language: null
+  license: MIT
+  stars_snapshot: 1646
+  updated_at: '2026-08-02T01:43:56Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: openvinotoolkit/openvino
+  url: https://github.com/openvinotoolkit/openvino
+  description: OpenVINO™ is an open source toolkit for optimizing and deploying AI inference
+  category: best-practices
+  direct_fde: false
+  tags:
+  - best-practices
+  primary_language: C++
+  license: Apache-2.0
+  stars_snapshot: 10593
+  updated_at: '2026-08-02T11:43:22Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: wearetyomsmnv/Awesome-LLMSecOps
+  url: https://github.com/wearetyomsmnv/Awesome-LLMSecOps
+  description: LLM | Agentic | Security | Operations in one github repo with good links and pictures.
+  category: best-practices
+  direct_fde: false
+  tags:
+  - agents
+  - security
+  - rag
+  primary_language: HTML
+  license: null
+  stars_snapshot: 147
+  updated_at: '2026-07-30T12:22:01Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: alirezarezvani/claude-skills
+  url: https://github.com/alirezarezvani/claude-skills
+  description: 345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable
+    references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing,
+    product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity
+    skills.
+  category: best-practices
+  direct_fde: false
+  tags:
+  - agents
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 23650
+  updated_at: '2026-08-02T15:02:16Z'
+  why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: cma0232/fde-interview-prep
+  url: https://github.com/cma0232/fde-interview-prep
+  description: The complete Forward Deployed Engineer interview prep guide — agentic system design, live demo, customer
+    scenarios, LLM deployment
+  category: case-studies
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  - rag
+  - learning
+  - cases
+  primary_language: null
+  license: null
+  stars_snapshot: 4
+  updated_at: '2026-07-31T02:14:00Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: kalyvask/fde-simulation
+  url: https://github.com/kalyvask/fde-simulation
+  description: 'Hands-on Forward Deployed Engineer role simulations: scope an enterprise engagement, build multi-agent
+    prototypes, ship eval suites, score artifacts against a reference, detect expert traps, and defend the build
+    under a timed oral grill.'
+  category: case-studies
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  - evaluation
+  - cases
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 1
+  updated_at: '2026-07-21T15:44:10Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: aifde/fde-practice-cases
+  url: https://github.com/aifde/fde-practice-cases
+  description: A curated collection of real-world FDE(Forward Deployed Engineer) practice cases.
+  category: case-studies
+  direct_fde: true
+  tags:
+  - fde
+  - cases
+  primary_language: null
+  license: null
+  stars_snapshot: 1
+  updated_at: '2026-07-19T10:12:29Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: patchy631/ai-engineering-hub
+  url: https://github.com/patchy631/ai-engineering-hub
+  description: In-depth tutorials on LLMs, RAGs and real-world AI agent applications.
+  category: case-studies
+  direct_fde: false
+  tags:
+  - agents
+  - mcp
+  - rag
+  - learning
+  primary_language: Jupyter Notebook
+  license: MIT
+  stars_snapshot: 36819
+  updated_at: '2026-08-02T10:09:15Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: NirDiamant/GenAI_Agents
+  url: https://github.com/NirDiamant/GenAI_Agents
+  description: 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots
+    to complex multi-agent systems.
+  category: case-studies
+  direct_fde: false
+  tags:
+  - agents
+  - mcp
+  - rag
+  - learning
+  primary_language: Jupyter Notebook
+  license: NOASSERTION
+  stars_snapshot: 23594
+  updated_at: '2026-08-02T15:14:26Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: turbo998/FDE-on-GitHub-Copilot-Practice-Book
+  url: https://github.com/turbo998/FDE-on-GitHub-Copilot-Practice-Book
+  description: FDE Practice Book — 微软生态下的前置部署工程实践 · 把 FDE 方法论(fde-book)焊到 Copilot Harness 工程(workshop)上 · Outcome
+    = Harness × Customer
+  category: case-studies
+  direct_fde: true
+  tags:
+  - fde
+  - learning
+  - cases
+  primary_language: SCSS
+  license: NOASSERTION
+  stars_snapshot: 1
+  updated_at: '2026-07-19T09:39:09Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: fde-sctp-aieng/fde-master
+  url: https://github.com/fde-sctp-aieng/fde-master
+  description: SCTP Capstone — Forward Deployed Engineer (FDE) Simulation · NTU PaCE Advanced Professional Certificate
+    in AI Engineering
+  category: case-studies
+  direct_fde: true
+  tags:
+  - fde
+  - cases
+  primary_language: Shell
+  license: NOASSERTION
+  stars_snapshot: 1
+  updated_at: '2026-06-30T14:04:42Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: hamzaMissewi/fde-framework
+  url: https://github.com/hamzaMissewi/fde-framework
+  description: 'feat: initial FDE framework with modular ETL, vector store, LLM agent, and logistics scenario'
+  category: case-studies
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  primary_language: Python
+  license: null
+  stars_snapshot: 2
+  updated_at: '2026-07-08T21:35:04Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Bhardwaj-Saurabh/aurora_hotel_concierge_voice_based_agent
+  url: https://github.com/Bhardwaj-Saurabh/aurora_hotel_concierge_voice_based_agent
+  description: A real-time, multilingual voice AI agent for hotel reservations — cascade voice architecture (STT
+    → LLM → RAG/Tools → TTS), hardened with real auth, real persistence, real observability, and continuously evaluated
+    against the live model in production.
+  category: case-studies
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  - observability
+  - rag
+  primary_language: Python
+  license: null
+  stars_snapshot: 1
+  updated_at: '2026-07-26T14:21:19Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: jakeb440/microsoft-fde-teardown
+  url: https://github.com/jakeb440/microsoft-fde-teardown
+  description: Outside-in FDE benchmarking teardown for Microsoft — self-contained HTML
+  category: case-studies
+  direct_fde: true
+  tags:
+  - fde
+  - evaluation
+  primary_language: HTML
+  license: null
+  stars_snapshot: 0
+  updated_at: '2026-04-10T22:05:58Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: ikatsov/tensor-house
+  url: https://github.com/ikatsov/tensor-house
+  description: 'A collection of reference Jupyter notebooks and demo AI/ML applications for enterprise use cases:
+    marketing, pricing, supply chain, smart manufacturing, and more.'
+  category: case-studies
+  direct_fde: false
+  tags:
+  - learning
+  - cases
+  primary_language: Jupyter Notebook
+  license: Apache-2.0
+  stars_snapshot: 1451
+  updated_at: '2026-08-02T11:16:18Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: muratcankoylan/AI-Investigator
+  url: https://github.com/muratcankoylan/AI-Investigator
+  description: An automated AI system (Python framework) designed to analyze any type of website content and generate
+    structured reports using Claude 3.5 Sonnet API and Firecrawl. While currently configured for enterprise AI case
+    studies, the architecture can be adapted for various content analysis needs.
+  category: case-studies
+  direct_fde: false
+  tags:
+  - enterprise-ai
+  - cases
+  primary_language: Python
+  license: null
+  stars_snapshot: 728
+  updated_at: '2026-07-29T03:05:48Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: GoogleCloudPlatform/generative-ai
+  url: https://github.com/GoogleCloudPlatform/generative-ai
+  description: Sample code and notebooks for Generative AI on Google Cloud, with Gemini Enterprise Agent Platform
+  category: case-studies
+  direct_fde: false
+  tags:
+  - agents
+  - learning
+  primary_language: Jupyter Notebook
+  license: Apache-2.0
+  stars_snapshot: 17541
+  updated_at: '2026-08-02T14:51:40Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: GURPREETKAURJETHRA/END-TO-END-GENERATIVE-AI-PROJECTS
+  url: https://github.com/GURPREETKAURJETHRA/END-TO-END-GENERATIVE-AI-PROJECTS
+  description: End to End Generative AI Industry Projects on LLM Models with Deployment_Awesome LLM Projects
+  category: case-studies
+  direct_fde: false
+  tags:
+  - mlops
+  primary_language: null
+  license: MIT
+  stars_snapshot: 617
+  updated_at: '2026-07-30T19:43:36Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: pathwaycom/llm-app
+  url: https://github.com/pathwaycom/llm-app
+  description: Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always
+    in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.
+  category: case-studies
+  direct_fde: false
+  tags:
+  - security
+  - rag
+  - mlops
+  primary_language: Jupyter Notebook
+  license: MIT
+  stars_snapshot: 59048
+  updated_at: '2026-08-02T15:11:39Z'
+  why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: chenshuai9101/fde-cli
+  url: https://github.com/chenshuai9101/fde-cli
+  description: FDE — Frontline Deployment Engineering (前线部署工程)。将企业AI落地需求从现场发现到交付交接的5阶段全生命周期流水线。
+  category: tools
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 1
+  updated_at: '2026-07-18T03:16:07Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: mollyretter/forward-deployed-engineer-toolkit
+  url: https://github.com/mollyretter/forward-deployed-engineer-toolkit
+  description: opinionated tools for shipping AI into real-world domains
+  category: tools
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: TypeScript
+  license: MIT
+  stars_snapshot: 7
+  updated_at: '2026-07-15T19:16:23Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Dan-Cleary/fdestack
+  url: https://github.com/Dan-Cleary/fdestack
+  description: Claude Code skill pack for forward-deployed engineers — customer context, discovery, scope, value
+    framing, POC, integration. Git-backed, no service deps.
+  category: tools
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: Shell
+  license: MIT
+  stars_snapshot: 3
+  updated_at: '2026-07-08T21:42:42Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: ZHONGZHUORAN/fde-copilot
+  url: https://github.com/ZHONGZHUORAN/fde-copilot
+  description: FDE Copilot — An AI copilot for Forward Deployed Engineers. WorkBuddy Skill + Universal edition +
+    full SOP         |          FDE (Forward Deployed Engineer) 全程陪跑 AI Copilot — WorkBuddy Skill + 通用版 + SOP 文档
+  category: tools
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: null
+  license: MIT
+  stars_snapshot: 1
+  updated_at: '2026-06-30T14:02:18Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: langfuse/langfuse
+  url: https://github.com/langfuse/langfuse
+  description: '🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground,
+    datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23'
+  category: tools
+  direct_fde: false
+  tags:
+  - evaluation
+  - observability
+  - mlops
+  primary_language: TypeScript
+  license: NOASSERTION
+  stars_snapshot: 32327
+  updated_at: '2026-08-02T15:11:30Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Arize-ai/phoenix
+  url: https://github.com/Arize-ai/phoenix
+  description: AI Observability & Evaluation
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - observability
+  - mlops
+  primary_language: Python
+  license: NOASSERTION
+  stars_snapshot: 10855
+  updated_at: '2026-08-02T14:28:54Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: evidentlyai/evidently
+  url: https://github.com/evidentlyai/evidently
+  description: Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any
+    AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.
+  category: tools
+  direct_fde: false
+  tags:
+  - observability
+  - mlops
+  - learning
+  primary_language: Jupyter Notebook
+  license: Apache-2.0
+  stars_snapshot: 7779
+  updated_at: '2026-08-02T10:44:09Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: GoogleCloudPlatform/agent-starter-pack
+  url: https://github.com/GoogleCloudPlatform/agent-starter-pack
+  description: Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD,
+    evaluation, and observability.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - observability
+  - mlops
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 6532
+  updated_at: '2026-08-02T03:41:26Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: punkpeye/awesome-mcp-servers
+  url: https://github.com/punkpeye/awesome-mcp-servers
+  description: A collection of MCP servers.
+  category: tools
+  direct_fde: false
+  tags:
+  - mcp
+  primary_language: null
+  license: MIT
+  stars_snapshot: 91727
+  updated_at: '2026-08-02T14:55:37Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: promptfoo/promptfoo
+  url: https://github.com/promptfoo/promptfoo
+  description: Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare
+    performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD
+    integration.  Used by OpenAI and Anthropic.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - security
+  - rag
+  - mlops
+  primary_language: TypeScript
+  license: MIT
+  stars_snapshot: 23842
+  updated_at: '2026-08-02T14:43:13Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: confident-ai/deepeval
+  url: https://github.com/confident-ai/deepeval
+  description: The LLM Evaluation Framework
+  category: tools
+  direct_fde: false
+  tags:
+  - evaluation
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 17334
+  updated_at: '2026-08-02T14:42:07Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: vibrantlabsai/ragas
+  url: https://github.com/vibrantlabsai/ragas
+  description: Supercharge Your LLM Application Evaluations 🚀
+  category: tools
+  direct_fde: false
+  tags:
+  - evaluation
+  - mlops
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 15087
+  updated_at: '2026-08-02T15:09:25Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: modelcontextprotocol/servers
+  url: https://github.com/modelcontextprotocol/servers
+  description: Model Context Protocol Servers
+  category: tools
+  direct_fde: false
+  tags:
+  - mcp
+  primary_language: TypeScript
+  license: NOASSERTION
+  stars_snapshot: 89135
+  updated_at: '2026-08-02T14:09:55Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: e2b-dev/awesome-ai-agents
+  url: https://github.com/e2b-dev/awesome-ai-agents
+  description: A list of AI autonomous agents
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  primary_language: null
+  license: NOASSERTION
+  stars_snapshot: 29227
+  updated_at: '2026-08-02T15:14:18Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: gitayg/appCrane
+  url: https://github.com/gitayg/appCrane
+  description: The agent-native deploy platform you actually own — ship AI apps inside your own (or a client's)
+    infrastructure, driven by your AI agent over MCP, with SSO + per-user audit. Self-hosted, open source; a deploy
+    layer for forward-deployed engineers.
+  category: tools
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  - mcp
+  primary_language: JavaScript
+  license: AGPL-3.0
+  stars_snapshot: 5
+  updated_at: '2026-08-02T15:04:34Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: selectess/fde-consultants-protocoles
+  url: https://github.com/selectess/fde-consultants-protocoles
+  description: 'FDE Consultants Protocoles — open-source Forward Deployed Engineer + DeepSCR protocol: turn any
+    coding agent (Claude Code, Codex, Cursor) into a certifying engineer with verifiable AI Assurance Scores, MCP
+    tools, and a public trust registry. Apache-2.0.'
+  category: tools
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  - evaluation
+  - mcp
+  primary_language: HTML
+  license: Apache-2.0
+  stars_snapshot: 1
+  updated_at: '2026-07-15T18:29:23Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: bettermen/fde-skill
+  url: https://github.com/bettermen/fde-skill
+  description: AI时代前沿部署工程师(FDE)全流程助手 — Audit/Evals/Deployment 三阶段方法论，融合 Palantir Echo-Delta 模式
+  category: tools
+  direct_fde: true
+  tags:
+  - evaluation
+  primary_language: Python
+  license: null
+  stars_snapshot: 2
+  updated_at: '2026-07-01T09:18:03Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: objectstack-ai/objectstack
+  url: https://github.com/objectstack-ai/objectstack
+  description: A complex business system in 170k tokens. ObjectStack compresses an entire app — data model, UI,
+    workflows, permissions — into typed metadata, an AI agent can hold in context, reason about, and refactor whole.
+  category: tools
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  - mcp
+  primary_language: TypeScript
+  license: Apache-2.0
+  stars_snapshot: 18
+  updated_at: '2026-08-02T15:01:11Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: icecreamlun/understudy
+  url: https://github.com/icecreamlun/understudy
+  description: Understudy — Codex as your company's forward-deployed engineer. It watches your repetitive work;
+    Codex turns it into a skill and runs it end-to-end, under human sign-off. Every AI call runs through the OpenAI
+    Codex CLI.
+  category: tools
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  primary_language: Python
+  license: null
+  stars_snapshot: 6
+  updated_at: '2026-07-28T11:39:25Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: cephos-ai/deploykit
+  url: https://github.com/cephos-ai/deploykit
+  description: Agent-native, open-source deployment tooling for those who want to deploy better
+  category: tools
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  primary_language: null
+  license: MIT
+  stars_snapshot: 6
+  updated_at: '2026-07-25T15:57:45Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: SumitOza/Hephaestus
+  url: https://github.com/SumitOza/Hephaestus
+  description: Hephaestus is a production-grade, Forward Deployed Engineering tool that eliminates deployment friction.
+    When a CI/CD pipeline fails, Hephaestus autonomously intercepts the failure, triages the root cause, generates
+    a precise code patch, and opens a GitHub Pull Request — reducing critical downtime from hours to **seconds**.
+  category: tools
+  direct_fde: true
+  tags:
+  - fde
+  primary_language: Python
+  license: null
+  stars_snapshot: 1
+  updated_at: '2026-06-18T23:11:02Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: memovai/openfde
+  url: https://github.com/memovai/openfde
+  description: AI workspace for AI FDEs. Deliver AI solutions 100x faster.
+  category: tools
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  primary_language: TypeScript
+  license: MIT
+  stars_snapshot: 4
+  updated_at: '2026-07-27T07:18:17Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: flamingtonForAI/FDEAgent
+  url: https://github.com/flamingtonForAI/FDEAgent
+  description: Smart Assistant for a newbie ontology FDE engineer, no need to use Palantir products.
+  category: tools
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  primary_language: TypeScript
+  license: MIT
+  stars_snapshot: 1
+  updated_at: '2026-03-25T08:20:44Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: agents-to-go/opencode-forward-deployed-engineer
+  url: https://github.com/agents-to-go/opencode-forward-deployed-engineer
+  description: 'Acts as a Forward Deployed Engineer: analyzes user needs, explores the codebase, and rapidly implements
+    solutions to deliver valuable outcomes.'
+  category: tools
+  direct_fde: true
+  tags:
+  - fde
+  - agents
+  primary_language: Batchfile
+  license: null
+  stars_snapshot: 1
+  updated_at: '2025-09-26T15:32:37Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: mksglu/context-mode
+  url: https://github.com/mksglu/context-mode
+  description: Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists
+    session memory, and   enforces routing across 17 platforms via MCP + hooks.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - sandbox
+  - mcp
+  primary_language: TypeScript
+  license: NOASSERTION
+  stars_snapshot: 19561
+  updated_at: '2026-08-02T14:43:51Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: mukul975/Anthropic-Cybersecurity-Skills
+  url: https://github.com/mukul975/Anthropic-Cybersecurity-Skills
+  description: '817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF
+    2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude
+    Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0'
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - security
+  - mcp
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 27143
+  updated_at: '2026-08-02T14:55:03Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: AgentOps-AI/agentops
+  url: https://github.com/AgentOps-AI/agentops
+  description: Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most
+    LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - observability
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 5748
+  updated_at: '2026-08-02T03:12:36Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: archestra-ai/archestra
+  url: https://github.com/archestra-ai/archestra
+  description: Enterprise AI Platform with guardrails, MCP registry, gateway & orchestrator
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - enterprise-ai
+  - security
+  - mcp
+  primary_language: TypeScript
+  license: NOASSERTION
+  stars_snapshot: 4089
+  updated_at: '2026-08-02T14:39:32Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: lmnr-ai/lmnr
+  url: https://github.com/lmnr-ai/lmnr
+  description: Laminar - open-source observability platform purpose-built for AI agents. YC S24.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - observability
+  - mlops
+  primary_language: TypeScript
+  license: Apache-2.0
+  stars_snapshot: 3133
+  updated_at: '2026-08-02T00:48:33Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: rulego/rulego
+  url: https://github.com/rulego/rulego
+  description: ⛓️RuleGo is a lightweight, high-performance, embedded, next-generation component orchestration rule
+    engine framework for Go.
+  category: tools
+  direct_fde: false
+  tags:
+  - mcp
+  primary_language: Go
+  license: Apache-2.0
+  stars_snapshot: 1570
+  updated_at: '2026-08-02T15:02:08Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: VoltAgent/voltagent
+  url: https://github.com/VoltAgent/voltagent
+  description: AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - observability
+  - mcp
+  - rag
+  primary_language: TypeScript
+  license: MIT
+  stars_snapshot: 10252
+  updated_at: '2026-08-02T15:15:24Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: comet-ml/opik
+  url: https://github.com/comet-ml/opik
+  description: Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive
+    tracing, automated evaluations, and production-ready dashboards.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - observability
+  - rag
+  - mlops
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 21052
+  updated_at: '2026-08-02T14:43:43Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: open-metadata/OpenMetadata
+  url: https://github.com/open-metadata/OpenMetadata
+  description: The Open Context Layer for Data and AI ,  OpenMetadata is the open platform for building trusted
+    data context and business semantics for humans, AI assistants, and agents.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - observability
+  - mcp
+  primary_language: TypeScript
+  license: Apache-2.0
+  stars_snapshot: 14625
+  updated_at: '2026-08-02T13:55:04Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Nasiko-Labs/nasiko
+  url: https://github.com/Nasiko-Labs/nasiko
+  description: Developer Control Plane for your AI Agents
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - security
+  - mcp
+  primary_language: Python
+  license: NOASSERTION
+  stars_snapshot: 4065
+  updated_at: '2026-08-02T09:11:34Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: sansan0/TrendRadar
+  url: https://github.com/sansan0/TrendRadar
+  description: ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯
+    告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持
+    Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。
+  category: tools
+  direct_fde: false
+  tags:
+  - observability
+  - mcp
+  primary_language: Python
+  license: GPL-3.0
+  stars_snapshot: 61091
+  updated_at: '2026-08-02T15:16:58Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: mlflow/mlflow
+  url: https://github.com/mlflow/mlflow
+  description: The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of
+    all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs
+    and managing access to models and data.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - observability
+  - mlops
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 27331
+  updated_at: '2026-08-02T15:15:40Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: dataelement/bisheng
+  url: https://github.com/dataelement/bisheng
+  description: 'BISHENG is an open LLM devops platform for next generation Enterprise AI applications. Powerful
+    and comprehensive features include: GenAI workflow, RAG, Agent, Unified model management, Evaluation, SFT, Dataset
+    Management, Enterprise-level System Management, Observability and more.'
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - enterprise-ai
+  - evaluation
+  - observability
+  - rag
+  - mlops
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 11812
+  updated_at: '2026-08-02T01:24:25Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: nextlevelbuilder/goclaw
+  url: https://github.com/nextlevelbuilder/goclaw
+  description: GoClaw - GoClaw is OpenClaw rebuilt in Go — with multi-tenant isolation, 5-layer security, and native
+    concurrency. Deploy AI agent teams at scale without compromising on safety.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - security
+  - mcp
+  primary_language: Go
+  license: NOASSERTION
+  stars_snapshot: 3500
+  updated_at: '2026-08-02T10:58:54Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: ascending-llc/jarvis-registry
+  url: https://github.com/ascending-llc/jarvis-registry
+  description: Connect any AI copilot or autonomous agent to your enterprise tools — through a single, secure MCP/Agent
+    gateway with built-in identity, access control, and full observability.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - observability
+  - mcp
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 2709
+  updated_at: '2026-08-02T14:42:21Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: ThinkWatchProject/ThinkWatch
+  url: https://github.com/ThinkWatchProject/ThinkWatch
+  description: Enterprise AI bastion host for secure AI API and MCP access, with unified proxying, RBAC, audit logs,
+    rate limiting, and cost tracking across OpenAI, Anthropic, Gemini, and self-hosted LLMs.
+  category: tools
+  direct_fde: false
+  tags:
+  - enterprise-ai
+  - security
+  - mcp
+  primary_language: Rust
+  license: NOASSERTION
+  stars_snapshot: 949
+  updated_at: '2026-07-30T22:43:55Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: UnicomAI/wanwu
+  url: https://github.com/UnicomAI/wanwu
+  description: China Unicom's Yuanjing Wanwu Agent Platform is an enterprise-grade, multi-tenant AI agent development
+    platform. It helps users build applications such as intelligent agents, workflows, and rag, and also supports
+    model management. The platform features a developer-friendly license, and we welcome all developers to build
+    upon the platform.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - enterprise-ai
+  - mcp
+  - rag
+  primary_language: Go
+  license: Apache-2.0
+  stars_snapshot: 2582
+  updated_at: '2026-08-01T08:25:46Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: langgenius/dify
+  url: https://github.com/langgenius/dify
+  description: Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative
+    workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding
+    the stack.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - mcp
+  - rag
+  primary_language: TypeScript
+  license: NOASSERTION
+  stars_snapshot: 151069
+  updated_at: '2026-08-02T15:15:03Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: bytedance/deer-flow
+  url: https://github.com/bytedance/deer-flow
+  description: An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help
+    of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that
+    could take minutes to hours.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - sandbox
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 78933
+  updated_at: '2026-08-02T15:13:56Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: mastra-ai/mastra
+  url: https://github.com/mastra-ai/mastra
+  description: Mastra is the modern TypeScript framework for AI-powered applications and agents.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - mcp
+  primary_language: TypeScript
+  license: NOASSERTION
+  stars_snapshot: 26827
+  updated_at: '2026-08-02T14:42:45Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: deepset-ai/haystack
+  url: https://github.com/deepset-ai/haystack
+  description: Open-source AI orchestration framework for building context-engineered, production-ready LLM applications.
+    Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation.
+    Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - mcp
+  - rag
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 26088
+  updated_at: '2026-08-02T14:42:54Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: dtyq/magic
+  url: https://github.com/dtyq/magic
+  description: Magicrew. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow
+    Engine + IM + Online collaborative office system)
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - sandbox
+  - mcp
+  primary_language: TypeScript
+  license: NOASSERTION
+  stars_snapshot: 4962
+  updated_at: '2026-08-02T07:43:29Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: diegosouzapw/OmniRoute
+  url: https://github.com/diegosouzapw/OmniRoute
+  description: 'Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi,
+    Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline
+    & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built
+    by 500+ contributors'
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - mcp
+  primary_language: TypeScript
+  license: MIT
+  stars_snapshot: 37556
+  updated_at: '2026-08-02T15:16:57Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: casdoor/casdoor
+  url: https://github.com/casdoor/casdoor
+  description: An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth
+    server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID,
+    Google Workspace, Azure AD
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - mcp
+  primary_language: Go
+  license: Apache-2.0
+  stars_snapshot: 14110
+  updated_at: '2026-08-02T06:41:07Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: iflytek/astron-agent
+  url: https://github.com/iflytek/astron-agent
+  description: Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - enterprise-ai
+  - mcp
+  primary_language: Java
+  license: Apache-2.0
+  stars_snapshot: 9278
+  updated_at: '2026-08-01T09:10:40Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: langwatch/langwatch
+  url: https://github.com/langwatch/langwatch
+  description: The platform for LLM evaluations and AI agent testing
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - observability
+  - mlops
+  primary_language: TypeScript
+  license: Apache-2.0
+  stars_snapshot: 3453
+  updated_at: '2026-08-02T12:56:42Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: awslabs/agentcore-samples
+  url: https://github.com/awslabs/agentcore-samples
+  description: Amazon Bedrock Agentcore accelerates AI agents into production with the scale, reliability, and security,
+    critical to real-world deployment.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - security
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 3238
+  updated_at: '2026-08-02T07:30:12Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: rcortx/kiwiq
+  url: https://github.com/rcortx/kiwiq
+  description: Production-grade multi-agent orchestration platform - JSON-defined agents, multi-tier memory, and
+    built-in observability. Battle-tested on 200+ enterprise AI agents. Now fully open-sourced (prod at https://kiwiq.ai).
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - enterprise-ai
+  - observability
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 991
+  updated_at: '2026-07-30T05:10:46Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Azure-Samples/AI-Gateway
+  url: https://github.com/Azure-Samples/AI-Gateway
+  description: Labs to explore AI Models, MCP servers, and Agents with the AI Gateway powered by Azure API Management
+    and Microsoft Foundry 🚀
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - mcp
+  primary_language: Jupyter Notebook
+  license: MIT
+  stars_snapshot: 966
+  updated_at: '2026-08-01T16:05:51Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: proinsight-io/crewmeld
+  url: https://github.com/proinsight-io/crewmeld
+  description: CrewMeld — Enterprise AI Digital Workforce Platform. Manage AI employees like real team members.
+    Visual SOP orchestration, 13 LLM providers (including China-native models), 8+ messaging channels(WeCom/DingTalk/Feishu/Telegram),
+    knowledge base with RAG, and full private deployment support. Built with Next.js, React, TypeScript & Bun.
+  category: tools
+  direct_fde: false
+  tags:
+  - enterprise-ai
+  - rag
+  primary_language: TypeScript
+  license: NOASSERTION
+  stars_snapshot: 521
+  updated_at: '2026-08-02T04:49:07Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: langchain-ai/langchain
+  url: https://github.com/langchain-ai/langchain
+  description: The agent engineering platform.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - rag
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 143228
+  updated_at: '2026-08-02T15:15:47Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Tencent/WeKnora
+  url: https://github.com/Tencent/WeKnora
+  description: 'Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning
+    agent, and a self-maintaining Wiki.'
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - evaluation
+  - rag
+  primary_language: Go
+  license: NOASSERTION
+  stars_snapshot: 19245
+  updated_at: '2026-08-02T14:44:03Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: google/agents-cli
+  url: https://github.com/google/agents-cli
+  description: The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying
+    AI agents on Google Cloud.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 5455
+  updated_at: '2026-08-02T14:03:41Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: affaan-m/ECC
+  url: https://github.com/affaan-m/ECC
+  description: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first
+    development for Claude Code, Codex, Opencode, Cursor and beyond.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - security
+  - mcp
+  primary_language: JavaScript
+  license: MIT
+  stars_snapshot: 236946
+  updated_at: '2026-08-02T15:15:39Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: rowboatlabs/rowboat
+  url: https://github.com/rowboatlabs/rowboat
+  description: Open-source AI coworker, with memory
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  primary_language: TypeScript
+  license: Apache-2.0
+  stars_snapshot: 16942
+  updated_at: '2026-08-02T14:44:41Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: The-Pocket/PocketFlow
+  url: https://github.com/The-Pocket/PocketFlow
+  description: 'Pocket Flow: 100-line LLM framework. Let Agents build Agents!'
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - rag
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 11080
+  updated_at: '2026-08-02T05:32:45Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: MervinPraison/PraisonAI
+  url: https://github.com/MervinPraison/PraisonAI
+  description: PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving
+    agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG,
+    and support for 100+ LLMs.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - rag
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 8539
+  updated_at: '2026-08-02T12:56:31Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: NVIDIA-NeMo/Guardrails
+  url: https://github.com/NVIDIA-NeMo/Guardrails
+  description: NeMo Guardrails is an open-source toolkit for easily adding programmable guardrails to LLM-based
+    conversational systems.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - security
+  primary_language: Python
+  license: NOASSERTION
+  stars_snapshot: 6852
+  updated_at: '2026-08-02T14:42:37Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: iflytek/astron-rpa
+  url: https://github.com/iflytek/astron-rpa
+  description: Agent-ready RPA suite with out-of-the-box automation tools. Built for individuals and enterprises.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - security
+  - mcp
+  primary_language: Java
+  license: Apache-2.0
+  stars_snapshot: 5897
+  updated_at: '2026-08-02T12:24:51Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: embabel/embabel-agent
+  url: https://github.com/embabel/embabel-agent
+  description: Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  primary_language: Kotlin
+  license: Apache-2.0
+  stars_snapshot: 3858
+  updated_at: '2026-08-02T12:59:03Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: giancarloerra/SocratiCode
+  url: https://github.com/giancarloerra/SocratiCode
+  description: 'Enterprise-grade (40m+ LOC) codebase intelligence, zero-setup, local & private Plugin/Skill/Extension
+    or MCP: hybrid semantic search, polyglot dependency graphs, symbol-level impact analysis & call-flow, interactive
+    HTML viewer, cross-project & branch-aware search, DB/API/infra knowledge. 61% less tokens, 84% fewer calls,
+    37x faster. Cloud in beta.'
+  category: tools
+  direct_fde: false
+  tags:
+  - enterprise-ai
+  - mcp
+  primary_language: TypeScript
+  license: AGPL-3.0
+  stars_snapshot: 3191
+  updated_at: '2026-08-02T03:59:22Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: MetapriseAI/OrgKernel
+  url: https://github.com/MetapriseAI/OrgKernel
+  description: Open-source trust layer for AI agents — cryptographic agent identity (Ed25519), instance-scoped execution
+    tokens, SHA-256 hash-chained audit logging, and enterprise SSO/SCIM federation. The security foundation powering
+    every agent in the Metaprise AURA platform.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - security
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 2480
+  updated_at: '2026-08-02T15:12:14Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: tractorjuice/arc-kit
+  url: https://github.com/tractorjuice/arc-kit
+  description: The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance
+    using AI coding assistants
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - mcp
+  primary_language: JavaScript
+  license: NOASSERTION
+  stars_snapshot: 2112
+  updated_at: '2026-08-01T13:34:51Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: Ricky-7-Yan/intelligent-audit-system
+  url: https://github.com/Ricky-7-Yan/intelligent-audit-system
+  description: 'AuditPilot: auditable enterprise AI agents for evidence-grounded workflows, governed tools, evaluation
+    harnesses, human review, and remediation delivery.'
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - enterprise-ai
+  - evaluation
+  - mcp
+  - rag
+  - mlops
+  primary_language: Python
+  license: null
+  stars_snapshot: 1164
+  updated_at: '2026-07-29T23:14:01Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: nduckmink/arkon
+  url: https://github.com/nduckmink/arkon
+  description: 'Arkon: Enterprise AI Knowledge Hub & MCP Server. Self-hosted knowledge base for teams to manage
+    RAG contexts, access policies, and AI skills. Connect Claude and other LLMs via Model Context Protocol (MCP)
+    for automated, secure organizational knowledge integration.'
+  category: tools
+  direct_fde: false
+  tags:
+  - enterprise-ai
+  - mcp
+  - rag
+  primary_language: Python
+  license: NOASSERTION
+  stars_snapshot: 1094
+  updated_at: '2026-08-02T14:34:27Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: InfinitiBit/graphbit
+  url: https://github.com/InfinitiBit/graphbit
+  description: GraphBit is the world’s first enterprise-grade Agentic AI framework, built on a Rust core with a
+    Python wrapper for unmatched speed, security, and scalability. It enables reliable multi-agent workflows with
+    minimal CPU and memory usage, making it production-ready for real-world enterprise environments.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - enterprise-ai
+  - security
+  primary_language: Rust
+  license: Apache-2.0
+  stars_snapshot: 571
+  updated_at: '2026-07-31T10:10:01Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: vxcontrol/pentagi
+  url: https://github.com/vxcontrol/pentagi
+  description: Fully autonomous AI Agents system capable of performing complex penetration testing tasks
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - security
+  primary_language: Go
+  license: MIT
+  stars_snapshot: 21471
+  updated_at: '2026-08-02T14:58:39Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: langbot-app/LangBot
+  url: https://github.com/langbot-app/LangBot
+  description: Production-grade platform for building agentic IM bots - 生产级多平台智能机器人开发平台/ Agent、知识库编排、插件系统 / Bots
+    for Discord / Slack / LINE / Telegram / WeChat(企业微信, 企微智能机器人, 公众号) / 飞书 / 钉钉 / QQ / Matrix e.g. Integrated with
+    ChatGPT(GPT), DeepSeek, Dify, n8n, Langflow, Coze, Claude, Gemini, GLM, Ollama, SiliconFlow, Moonshot, openclaw
+    / hermes agent, deerflow
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - rag
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 17222
+  updated_at: '2026-08-02T14:44:38Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: daytonaio/daytona
+  url: https://github.com/daytonaio/daytona
+  description: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - sandbox
+  primary_language: null
+  license: null
+  stars_snapshot: 72069
+  updated_at: '2026-08-02T14:52:26Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: usestrix/strix
+  url: https://github.com/usestrix/strix
+  description: Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - security
+  primary_language: Python
+  license: Apache-2.0
+  stars_snapshot: 46577
+  updated_at: '2026-08-02T15:14:40Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'
+- name: langchain-ai/langgraph
+  url: https://github.com/langchain-ai/langgraph
+  description: Build resilient agents.
+  category: tools
+  direct_fde: false
+  tags:
+  - agents
+  - rag
+  primary_language: Python
+  license: MIT
+  stars_snapshot: 38681
+  updated_at: '2026-08-02T15:16:16Z'
+  why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
+  editorial_state: candidate
+  reviewed_on: '2026-08-02'

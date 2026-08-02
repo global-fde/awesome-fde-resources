@@ -1,0 +1,69 @@
+name: Propose a hosted resource
+description: Propose original or explicitly authorized material for the Global FDE library
+title: "[Hosted resource]: "
+labels:
+  - hosted-resource
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Resource title
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource type
+      options:
+        - Guide or learning path
+        - Template or checklist
+        - Deployment case or postmortem
+        - Original report or research
+        - Authorized translation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Practitioner value
+      description: Explain the decision, method, or lesson another FDE can reuse.
+    validations:
+      required: true
+  - type: dropdown
+    id: rights
+    attributes:
+      label: Permission basis
+      options:
+        - I own the work and can license it to this repository
+        - It has a compatible open license
+        - I have explicit permission from the rights holder
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Permission and source evidence
+      description: Provide the original URL, license, authorship, or permission context. Do not post private documents publicly.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Field safety checks
+      options:
+        - label: Customer and personal identifiers are removed or authorized.
+          required: true
+        - label: Credentials, internal URLs, and security-sensitive details are removed.
+          required: true
+        - label: NDA, contract, code, pricing, and metrics restrictions have been reviewed.
+          required: true
+        - label: I understand that public access alone does not grant republishing rights.
+          required: true
+  - type: textarea
+    id: conflict
+    attributes:
+      label: Conflict-of-interest disclosure
+      description: State employment, authorship, investment, referral, sponsorship, or other interests. Write "None" if none.
+    validations:
+      required: true

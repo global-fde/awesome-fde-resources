@@ -49,6 +49,47 @@ A resource should satisfy most of the following criteria:
 
 Descriptions should be factual, specific, and free of promotional adjectives.
 
+## Choose a contribution type
+
+### A. Curated external link
+
+Use this route when the source already has a canonical public home.
+
+1. Add the resource to the appropriate README section.
+2. Add its structured record to [`resources/links.yml`](resources/links.yml).
+3. Link to the original author, repository, publisher, company, or standards body.
+4. Do not copy the resource into this repository unless its license explicitly
+   permits it and hosting creates clear community value.
+
+For a GitHub repository, also check
+[`resources/github-repositories.yml`](resources/github-repositories.yml) for
+duplicates. A submission should identify one of these categories:
+
+- `getting-started`
+- `best-practices`
+- `case-studies`
+- `tools`
+
+State whether the project is directly about FDE or supports a specific part of
+the production-AI delivery stack. Generic AI lists and projects with only a
+title-level connection to FDE will not be accepted.
+
+### B. Hosted Global FDE resource
+
+Use this route for an original or explicitly authorized guide, report,
+template, checklist, field note, transcript, or anonymized case.
+
+1. Read the [`library` policy](library/README.md).
+2. Put the content in the appropriate `library/` category.
+3. Include a source record using [`library/SOURCE_TEMPLATE.yml`](library/SOURCE_TEMPLATE.yml).
+4. Remove customer secrets, personal information, credentials, and unapproved
+   commercial details.
+5. Confirm that the submitter owns the content or has documented permission to
+   release it under a compatible license.
+
+Public access is not the same as permission to republish. If rights are unclear,
+submit an external link instead.
+
 ## Pull request scope
 
 Prefer one resource or one tightly related group per pull request. A focused

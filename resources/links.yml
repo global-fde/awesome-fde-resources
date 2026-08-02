@@ -1,0 +1,34 @@
+schema_version: 1
+resources:
+  - id: xdash-fde-guidance-book
+    title: "前线部署工程师：人工智能时代的客户价值交付秘籍"
+    title_en: "The Guidance Book of Forward Deployed Engineer"
+    url: "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer"
+    author: "范冰（XDash）"
+    language:
+      - zh-CN
+    resource_type: book
+    evidence_type:
+      - research-synthesis
+      - case-collection
+      - practitioner-guide
+    topics:
+      - role-and-career
+      - field-discovery
+      - delivery
+      - adoption
+      - case-study
+      - china
+    fde_relevance: >-
+      A Chinese introduction organized around the full customer-value delivery
+      journey, with chapters on problem selection, customer engagement,
+      activation, renewal, expansion, scale, metrics, cases, and professional
+      ethics.
+    access: free-to-read
+    license_note: >-
+      Copyright remains with the author. The source repository permits free
+      reading and non-commercial sharing with attribution; commercial use
+      requires the author's written permission. Link externally; do not mirror.
+    source_verified_on: 2026-08-02
+    editorial_state: featured
+    conflict_of_interest: none

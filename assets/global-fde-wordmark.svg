@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" role="img" aria-labelledby="title desc">
+  <title id="title">Global FDE wordmark</title>
+  <desc id="desc">Global FDE with the forward deployment mark.</desc>
+  <rect width="920" height="220" rx="28" fill="#FFFCF7"/>
+  <g transform="translate(34 30) scale(.625)">
+    <rect width="256" height="256" rx="52" fill="#121212"/>
+    <path d="M48 72h70c34 0 54 18 54 48v8" fill="none" stroke="#F4EBDD" stroke-width="22" stroke-linecap="round"/>
+    <path d="M48 184h70c34 0 54-18 54-48v-8" fill="none" stroke="#F4EBDD" stroke-width="22" stroke-linecap="round"/>
+    <path d="M151 82l49 46-49 46" fill="none" stroke="#FF5A36" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="230" y="137" fill="#121212" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="750" letter-spacing="-3">Global FDE</text>
+</svg>

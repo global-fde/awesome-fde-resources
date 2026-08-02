@@ -1,0 +1,28 @@
+title: ""
+slug: ""
+authors:
+  - name: ""
+    github: ""
+resource_type: guide
+language:
+  - en
+original_url: ""
+created_on: YYYY-MM-DD
+submitted_on: YYYY-MM-DD
+license: Apache-2.0
+permission_basis: author-owned
+permission_evidence: "PR author attestation"
+allowed_uses:
+  - host
+  - modify
+  - redistribute
+sensitivity_review:
+  customer_identifiers_removed: false
+  personal_data_removed: false
+  credentials_removed: false
+  nda_content_removed: false
+conflict_of_interest: none
+review:
+  status: candidate
+  reviewers: []
+  reviewed_on: null
