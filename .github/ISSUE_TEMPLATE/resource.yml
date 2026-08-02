@@ -1,0 +1,74 @@
+name: Suggest a resource
+description: Propose a resource for the Awesome Global FDE list
+title: "[Resource]: "
+labels:
+  - resource
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Resource title
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Canonical URL
+      description: Link to the original source rather than a repost or search page.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - The FDE role and discipline
+        - Field discovery and delivery
+        - Production AI and agents
+        - Evaluation and observability
+        - Security, governance, and risk
+        - Cases and field evidence
+        - Careers and organizations
+        - Chinese-language resources
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why does this matter to an FDE?
+      description: Explain the concrete decision, method, system, or reusable lesson.
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: Evidence type
+      options:
+        - First-party documentation
+        - Original research or standard
+        - Production case study
+        - Practitioner field note
+        - Open-source tool
+        - Course or talk
+        - Book or report
+        - Role description
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: conflict
+    attributes:
+      label: Conflict-of-interest disclosure
+      description: Disclose authorship, employment, investment, referral, sponsorship, or other commercial relationships. Write "None" if none.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I reviewed the resource in full and checked for duplicates.
+          required: true
+        - label: The resource does not expose confidential or unauthorized information.
+          required: true
