@@ -1,0 +1,30 @@
+title: "关于 Forward Deployed Engineer 的 100 个问题"
+slug: one-hundred-questions-about-fde-zh-CN
+authors:
+  - name: "AI 磊叔"
+    github: ""
+resource_type: guide
+language:
+  - zh-CN
+original_url: "https://my.feishu.cn/wiki/QWQHwA9uYibmtzkZLJBccaEhnNd"
+created_on: 2026-07-22
+submitted_on: 2026-08-03
+license: All-Rights-Reserved
+permission_basis: maintainer-supplied-for-hosting
+permission_evidence: "A Global FDE maintainer requested repository inclusion on 2026-08-03; copyright remains with AI 磊叔 and cited source owners."
+allowed_uses:
+  - host
+  - redistribute-as-is
+sensitivity_review:
+  customer_identifiers_removed: true
+  personal_data_removed: true
+  credentials_removed: true
+  nda_content_removed: true
+conflict_of_interest: "Author relationship not specified."
+integrity:
+  sha256: 51104a2da5df73ccb51d2e3a4138519432214f9fcd666b06c94a12d2b37eed2b
+review:
+  status: accepted
+  reviewers:
+    - Global FDE maintainer
+  reviewed_on: 2026-08-03

@@ -8,6 +8,7 @@ the community can review, improve, translate, and preserve in version control.
 - `guides/` — original methods and learning paths;
 - `templates/` — reusable field artifacts and checklists;
 - `cases/` — authorized, anonymized deployment cases and postmortems;
+- `interviews/` — authorized interviews and edited transcripts;
 - `reports/` — original Global FDE research and reports;
 - `translations/` — translations published with the rights holder's permission.
 
@@ -20,6 +21,11 @@ the community can review, improve, translate, and preserve in version control.
 ### Guides
 
 - [How to Become an FDE Engineer (Chinese key notes)](guides/how-to-become-an-fde-engineer-notes-zh-CN.pdf) — 张子峰 ARK, 5 pages.
+- [100 Questions About Forward Deployed Engineers (Chinese)](guides/one-hundred-questions-about-fde-zh-CN.pdf) — AI 磊叔, 92 pages.
+
+### Interviews
+
+- [FDE Interview: AI Deployment, Productization, and the Talent Profile (Chinese)](interviews/fde-interview-ai-deployment-productization-talent-profile-zh-CN.pdf) — edited interview transcript, 16 pages.
 
 Each PDF has a neighboring `.source.yml` record containing attribution, integrity hash, permission basis, and review status.
 

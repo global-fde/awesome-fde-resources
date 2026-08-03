@@ -1,0 +1,30 @@
+title: "FDE 访谈整理：AI 落地、产品化与人才画像"
+slug: fde-interview-ai-deployment-productization-talent-profile-zh-CN
+authors:
+  - name: "未署名（基于访谈录音整理）"
+    github: ""
+resource_type: interview
+language:
+  - zh-CN
+original_url: ""
+created_on: 2026-07-28
+submitted_on: 2026-08-03
+license: All-Rights-Reserved
+permission_basis: maintainer-supplied-for-hosting
+permission_evidence: "A Global FDE maintainer requested repository inclusion on 2026-08-03; rights remain with the interviewer, interviewee, and editor."
+allowed_uses:
+  - host
+  - redistribute-as-is
+sensitivity_review:
+  customer_identifiers_removed: true
+  personal_data_removed: true
+  credentials_removed: true
+  nda_content_removed: true
+conflict_of_interest: "Interview relationships and editor identity are not specified in the document."
+integrity:
+  sha256: e9c9c940f7b2aeb1c153e49eec0238e8d0bfa3f01dbca8ba06eb2fba0a16981c
+review:
+  status: accepted
+  reviewers:
+    - Global FDE maintainer
+  reviewed_on: 2026-08-03
