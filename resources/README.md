@@ -5,7 +5,7 @@
 Publication rules:
 
 - manual editorial selection;
-- at least 500 GitHub stars at review time;
+- demonstrated relevance, maintenance, adoption, or field evidence;
 - direct value to FDE or production AI delivery;
 - one of `getting-started`, `best-practices`, `case-studies`, or `tools`;
 - no archived, disabled, duplicate, or description-less repositories.

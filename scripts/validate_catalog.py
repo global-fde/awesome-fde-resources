@@ -47,9 +47,7 @@ def main() -> None:
         for repo in repositories:
             assert readme.count(repo["url"]) == 1, f"{repo['name']} missing or duplicated in {readme_path.name}"
 
-    print(
-        f"Catalog OK: {len(repositories)} repositories, minimum {payload['minimum_stars']} stars"
-    )
+    print(f"Catalog OK: {len(repositories)} curated repositories")
 
 
 if __name__ == "__main__":

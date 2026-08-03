@@ -63,8 +63,7 @@ Use this route when the source already has a canonical public home.
 
 For a GitHub repository, also check
 [`resources/github-repositories.yml`](resources/github-repositories.yml) for
-duplicates. New repository submissions must have at least **500 GitHub stars**
-at review time and should identify one of these categories:
+duplicates. Repository submissions should identify one of these categories:
 
 - `getting-started`
 - `best-practices`
@@ -72,8 +71,10 @@ at review time and should identify one of these categories:
 - `tools`
 
 State whether the project is directly about FDE or supports a specific part of
-the production-AI delivery stack. Generic AI lists and projects with only a
-title-level connection to FDE will not be accepted.
+the production-AI delivery stack. Maintainers consider evidence, relevance,
+maintenance, practitioner value, and community adoption together. Emerging
+projects with strong field evidence are welcome; generic AI lists and projects
+with only a title-level connection to FDE are not.
 
 ### C. Member profile
 
@@ -135,5 +136,6 @@ Maintainers assess submissions for relevance, evidence quality, utility,
 source quality, durability, and undisclosed promotion. Inclusion is editorial,
 not automatic, and does not imply endorsement by Global FDE.
 
-By contributing, you agree that your contribution may be released under the
-repository's [Apache License 2.0](LICENSE).
+By contributing, you agree that content contributions may be released under
+[CC BY 4.0](LICENSE), while code contributions under `scripts/` may be released
+under [Apache License 2.0](LICENSE-CODE). See [LICENSES.md](LICENSES.md).

@@ -29,13 +29,6 @@ body:
         - Other
     validations:
       required: true
-  - type: input
-    id: stars
-    attributes:
-      label: GitHub stars
-      description: Repository submissions must have at least 500 stars at review time. Write N/A for non-GitHub resources.
-    validations:
-      required: true
   - type: textarea
     id: relevance
     attributes:

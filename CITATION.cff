@@ -1,15 +1,15 @@
 cff-version: 1.2.0
-message: "If Awesome Global FDE supports your work, please cite the repository."
-title: "Awesome Global FDE"
+message: "If Awesome FDE Resources supports your work, please cite the repository."
+title: "Awesome FDE Resources"
 abstract: >-
   A curated open knowledge base for Forward Deployed Engineers, enterprise AI
   deployment, production AI systems, AI agents, field engineering, evaluation,
   security, adoption, and real-world delivery.
 authors:
   - name: "Global FDE Community"
-repository-code: "https://github.com/global-fde/awesome-global-fde"
-url: "https://global-fde.github.io/awesome-global-fde/"
-license: Apache-2.0
+repository-code: "https://github.com/global-fde/awesome-fde-resources"
+url: "https://github.com/global-fde/awesome-fde-resources"
+license: CC-BY-4.0
 keywords:
   - Forward Deployed Engineer
   - FDE

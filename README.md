@@ -1,10 +1,10 @@
-# Awesome Global FDE
+# Awesome FDE Resources
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 A focused list of high-quality resources for Forward Deployed Engineers and production AI delivery.
 
-**Selection rule:** repositories must have at least 500 GitHub stars at the time of review. We prefer books, guides, production practices, real implementations, and tools that help move AI into real business workflows.
+We prefer credible books, guides, production practices, real implementations, and tools that help move AI into real business workflows. Quality, relevance, maintenance, and practical value are reviewed together.
 
 ## Contents
 
@@ -82,6 +82,6 @@ The [member directory](members/README.md) introduces practitioners and teams tha
 
 ## Contributing
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md). New repository submissions must meet the 500-star threshold and explain their direct value to FDE or production AI delivery.
+Read [CONTRIBUTING.md](CONTRIBUTING.md). New submissions should explain their direct value to FDE or production AI delivery. Emerging projects with strong evidence are welcome.
 
-Linked projects remain under their owners' licenses. This repository is licensed under [Apache-2.0](LICENSE).
+Linked projects remain under their owners' licenses. Original content is licensed under [CC BY 4.0](LICENSE); code under [`scripts/`](scripts/) is licensed under [Apache-2.0](LICENSE-CODE). See [licensing details](LICENSES.md).

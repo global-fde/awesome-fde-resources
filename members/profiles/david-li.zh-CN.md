@@ -16,7 +16,7 @@ David 发起 Global FDE，希望连接 FDE 从业者、企业真实需求、交�
 ## 公开项目与资源
 
 - [Global FDE](https://github.com/global-fde) — Global FDE 生态与社区发起人。
-- [Awesome Global FDE](https://github.com/global-fde/awesome-global-fde) — 精选 FDE 与生产级 AI 资料库。
+- [Awesome FDE Resources](https://github.com/global-fde/awesome-fde-resources) — 精选 FDE 与生产级 AI 资料库。
 - [SandBase AI](https://www.sandbase.ai/) — 面向生产级 AI 与 Agent Workflow 的基础设施和工具。
 - [SandBase AI GitHub](https://github.com/sandbaseai) — SandBase AI 开源项目与工程资源。
 

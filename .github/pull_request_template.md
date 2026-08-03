@@ -5,7 +5,6 @@
 - Category:
 - Evidence type:
 - Language / region (if relevant):
-- GitHub stars (minimum 500 for repository submissions):
 
 ## Why it matters to FDEs
 

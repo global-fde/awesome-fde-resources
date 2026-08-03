@@ -16,7 +16,7 @@ David initiated Global FDE to connect practitioners, enterprise needs, delivery 
 ## Public projects and resources
 
 - [Global FDE](https://github.com/global-fde) — initiator of the global FDE ecosystem and community.
-- [Awesome Global FDE](https://github.com/global-fde/awesome-global-fde) — curated FDE and production AI resource library.
+- [Awesome FDE Resources](https://github.com/global-fde/awesome-fde-resources) — curated FDE and production AI resource library.
 - [SandBase AI](https://www.sandbase.ai/) — infrastructure and tools for building production AI and agent workflows.
 - [SandBase AI on GitHub](https://github.com/sandbaseai) — open-source projects and engineering resources.
 

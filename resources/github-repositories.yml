@@ -9,7 +9,7 @@ category_counts:
   case-studies: 8
   tools: 12
 minimum_stars: 500
-selection_note: Manually curated from GitHub discovery; every published repository must meet the star threshold.
+selection_note: Manually curated for relevance, maintenance, adoption, field evidence, and practical value.
 repositories:
 - name: xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer
   url: https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer

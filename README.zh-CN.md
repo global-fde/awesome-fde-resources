@@ -1,10 +1,10 @@
-# Awesome Global FDE
+# Awesome FDE Resources
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 面向前沿部署工程师（Forward Deployed Engineer，FDE）和生产级 AI 交付的高质量资料清单。
 
-**收录标准：**评审时 GitHub Stars 不低于 500。优先收录书籍、指南、生产实践、真实参考实现，以及能帮助 AI 进入真实业务流程的工具。
+我们优先收录可信的书籍、指南、生产实践、真实参考实现，以及能够帮助 AI 进入真实业务流程的工具。评审会综合考虑质量、相关性、维护状态和实践价值。
 
 ## 目录
 
@@ -82,6 +82,6 @@
 
 ## 参与贡献
 
-提交前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。新仓库原则上必须达到 500 Stars，并说明它对 FDE 或生产级 AI 交付的直接价值。
+提交前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。新资源应说明它对 FDE 或生产级 AI 交付的直接价值；具备明确证据的新兴项目同样欢迎提交。
 
-被链接项目继续遵循原作者的许可证。本仓库采用 [Apache-2.0](LICENSE)。
+被链接项目继续遵循原作者的许可证。本仓库原创内容采用 [CC BY 4.0](LICENSE)，[`scripts/`](scripts/) 下的代码采用 [Apache-2.0](LICENSE-CODE)。详见[协议说明](LICENSES.md)。

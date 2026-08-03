@@ -69,7 +69,7 @@ EXCLUDE_TERMS = {
 def request_json(url: str) -> tuple[dict, dict[str, str]]:
     headers = {
         "Accept": "application/vnd.github+json",
-        "User-Agent": "awesome-global-fde-discovery",
+        "User-Agent": "awesome-fde-resources-discovery",
         "X-GitHub-Api-Version": "2022-11-28",
     }
     if TOKEN:

@@ -505,7 +505,7 @@ def main() -> None:
         "supporting_repository_count": sum(not repo["direct_fde"] for repo in selected),
         "category_counts": dict(counts),
         "minimum_stars": MINIMUM_STARS,
-        "selection_note": "Manually curated from GitHub discovery; every published repository must meet the star threshold.",
+        "selection_note": "Manually curated for relevance, maintenance, adoption, field evidence, and practical value.",
         "repositories": selected,
     }
     YAML_OUTPUT.write_text(yaml.safe_dump(payload, allow_unicode=True, sort_keys=False, width=110), encoding="utf-8")
