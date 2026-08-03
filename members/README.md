@@ -22,7 +22,11 @@ This directory helps enterprises and practitioners find people or teams with ver
 
 ## Directory
 
-No member profile has been approved yet. Use the [profile template](PROFILE_TEMPLATE.md) and open a pull request.
+| Member | Role | Capabilities | Resources |
+| --- | --- | --- | --- |
+| [David Li (李样兵)](profiles/david-li.md) | Global FDE Initiator; Founder of SandBase AI | Enterprise AI discovery, agent infrastructure, ecosystem connection | [Global FDE](https://github.com/global-fde), [SandBase AI](https://www.sandbase.ai/) |
+
+Use the [profile template](PROFILE_TEMPLATE.md) to propose another member through a pull request.
 
 ## Review rules
 

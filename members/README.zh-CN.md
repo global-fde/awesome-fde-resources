@@ -22,7 +22,11 @@
 
 ## 会员目录
 
-目前还没有审核通过的会员资料。请使用[会员资料模板](PROFILE_TEMPLATE.md)并提交 Pull Request。
+| 会员 | 身份 | 可提供能力 | 公开资源 |
+| --- | --- | --- | --- |
+| [David（李样兵）](profiles/david-li.zh-CN.md) | Global FDE 发起人；SandBase AI 创始人 | 企业 AI 需求发现、Agent 基础设施、生态连接 | [Global FDE](https://github.com/global-fde)、[SandBase AI](https://www.sandbase.ai/) |
+
+如需增加会员，请使用[会员资料模板](PROFILE_TEMPLATE.md)并提交 Pull Request。
 
 ## 审核规则
 
