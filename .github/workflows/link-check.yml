@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
@@ -25,6 +25,5 @@ jobs:
             --verbose
             --no-progress
             --accept 200,206,429
-            --exclude-mail
             "**/*.md"
           fail: true
