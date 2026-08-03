@@ -1,4 +1,4 @@
-# Contributing to Awesome Global FDE
+# Contributing to Awesome FDE Resources
 
 Thank you for helping build a useful knowledge base for Forward Deployed
 Engineers. We value a small number of well-explained resources more than a

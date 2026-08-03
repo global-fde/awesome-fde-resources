@@ -30,7 +30,7 @@ def main() -> None:
     draw = ImageDraw.Draw(image)
     draw.rounded_rectangle((70, 72, 220, 80), radius=4, fill=ORANGE)
     draw.text((70, 108), "GLOBAL FDE / OPEN KNOWLEDGE", font=font(30), fill=PAPER)
-    draw.text((70, 205), "Awesome Global FDE", font=font(76), fill=PAPER)
+    draw.text((70, 205), "Awesome FDE Resources", font=font(76), fill=PAPER)
     draw.text((70, 314), "Resources, field practices, cases, and tools", font=font(36), fill=SAND)
     draw.text((70, 363), "for Forward Deployed Engineers.", font=font(36), fill=SAND)
     draw.line((70, 515, 700, 515), fill=GRAY, width=16)
