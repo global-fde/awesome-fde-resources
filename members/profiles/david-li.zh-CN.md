@@ -30,7 +30,9 @@ David 发起 Global FDE，希望连接 FDE 从业者、企业真实需求、交�
 
 ## 联系方式
 
-可通过 [SandBase AI](https://www.sandbase.ai/) 的公开渠道联系，或通过 [Global FDE](https://github.com/global-fde) 建立连接。
+- 微信：`a1starb2`
+- 邮箱：[david@sandbase.ai](mailto:david@sandbase.ai)
+- 网站：[SandBase AI](https://www.sandbase.ai/)
 
 ## 利益披露
 

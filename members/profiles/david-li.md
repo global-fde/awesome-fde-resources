@@ -30,7 +30,9 @@ David initiated Global FDE to connect practitioners, enterprise needs, delivery 
 
 ## Contact
 
-Use the public contact channels on [SandBase AI](https://www.sandbase.ai/) or connect through [Global FDE](https://github.com/global-fde).
+- WeChat: `a1starb2`
+- Email: [david@sandbase.ai](mailto:david@sandbase.ai)
+- Website: [SandBase AI](https://www.sandbase.ai/)
 
 ## Disclosure
 
