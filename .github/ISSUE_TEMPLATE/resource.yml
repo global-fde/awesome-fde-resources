@@ -22,15 +22,18 @@ body:
     attributes:
       label: Category
       options:
-        - The FDE role and discipline
-        - Field discovery and delivery
-        - Production AI and agents
-        - Evaluation and observability
-        - Security, governance, and risk
-        - Cases and field evidence
-        - Careers and organizations
-        - Chinese-language resources
+        - Getting started
+        - Best practices
+        - Cases and reference implementations
+        - Tools
         - Other
+    validations:
+      required: true
+  - type: input
+    id: stars
+    attributes:
+      label: GitHub stars
+      description: Repository submissions must have at least 500 stars at review time. Write N/A for non-GitHub resources.
     validations:
       required: true
   - type: textarea

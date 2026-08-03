@@ -11,7 +11,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "resources" / "github-repositories.yml"
-INDEX = ROOT / "GITHUB_REPOSITORIES.md"
+READMES = [ROOT / "README.md", ROOT / "README.zh-CN.md"]
 ALLOWED_CATEGORIES = {
     "getting-started",
     "best-practices",
@@ -29,6 +29,8 @@ def main() -> None:
     direct_count = sum(bool(repo["direct_fde"]) for repo in repositories)
 
     assert payload["repository_count"] == len(repositories), "repository_count does not match catalog"
+    assert payload["repository_count"] == 50, "the curated catalog must contain exactly 50 repositories"
+    assert payload["minimum_stars"] == 500, "minimum star policy must be 500"
     assert len(urls) == len(set(urls)), "duplicate repository URL"
     assert len(names) == len(set(names)), "duplicate repository name"
     assert all(url.startswith("https://github.com/") for url in urls), "non-GitHub URL in repository catalog"
@@ -38,14 +40,15 @@ def main() -> None:
     assert payload["supporting_repository_count"] == len(repositories) - direct_count, "supporting count mismatch"
     assert all(repo["editorial_state"] in {"candidate", "reviewed", "featured", "archived"} for repo in repositories), "unknown editorial state"
     assert all(repo.get("description", "").strip() for repo in repositories), "empty description"
+    assert all(repo["stars_snapshot"] >= payload["minimum_stars"] for repo in repositories), "repository below star threshold"
 
-    index = INDEX.read_text(encoding="utf-8")
-    assert f"> {len(repositories)} repositories" in index, "Markdown index count is stale"
-    assert index.count("https://github.com/") == len(repositories), "Markdown index URL count is stale"
+    for readme_path in READMES:
+        readme = readme_path.read_text(encoding="utf-8")
+        for repo in repositories:
+            assert readme.count(repo["url"]) == 1, f"{repo['name']} missing or duplicated in {readme_path.name}"
 
     print(
-        f"Catalog OK: {len(repositories)} repositories, "
-        f"{direct_count} direct FDE, {len(repositories) - direct_count} supporting"
+        f"Catalog OK: {len(repositories)} repositories, minimum {payload['minimum_stars']} stars"
     )
 
 

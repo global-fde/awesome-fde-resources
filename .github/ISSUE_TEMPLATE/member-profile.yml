@@ -1,0 +1,51 @@
+name: Propose a member profile
+description: Propose an evidence-based FDE practitioner or delivery-team profile
+title: "[Member]: "
+labels:
+  - member-profile
+body:
+  - type: markdown
+    attributes:
+      value: Profiles must provide public evidence and disclose commercial relationships.
+  - type: input
+    id: name
+    attributes:
+      label: Name or team
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Member type
+      options:
+        - Practitioner
+        - Delivery team
+        - Domain expert
+        - Technology partner
+    validations:
+      required: true
+  - type: textarea
+    id: capabilities
+    attributes:
+      label: FDE capabilities and delivery scope
+      description: Describe concrete deliverables, not general marketing claims.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public projects and evidence
+      description: Add canonical links and explain the proposed member's role.
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: Resources
+      description: Link books, guides, tools, courses, or repositories the member can provide.
+  - type: textarea
+    id: disclosure
+    attributes:
+      label: Conflict-of-interest disclosure
+    validations:
+      required: true

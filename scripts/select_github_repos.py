@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Select 200 high-signal repositories from the GitHub discovery pool."""
+"""Publish the manually curated 50-repository Global FDE catalog."""
 
 from __future__ import annotations
 
@@ -15,13 +15,76 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "resources" / "github-candidates.json"
 YAML_OUTPUT = ROOT / "resources" / "github-repositories.yml"
-MARKDOWN_OUTPUT = ROOT / "GITHUB_REPOSITORIES.md"
-TARGET = 200
+TARGET = 50
+MINIMUM_STARS = 500
 QUOTAS = {
-    "getting-started": 85,
-    "best-practices": 25,
-    "case-studies": 15,
-    "tools": 75,
+    "getting-started": 18,
+    "best-practices": 12,
+    "case-studies": 8,
+    "tools": 12,
+}
+
+# Explicit editorial selection. Search discovers candidates; it never publishes
+# them automatically. Keep this list short and review every addition.
+CURATED_REPOSITORIES = {
+    "getting-started": [
+        "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+        "pierpaolo28/Awesome-FDE-Roadmap",
+        "mlabonne/llm-course",
+        "chiphuyen/aie-book",
+        "huggingface/agents-course",
+        "ombharatiya/ai-system-design-guide",
+        "PacktPublishing/LLM-Engineers-Handbook",
+        "decodingai-magazine/llm-twin-course",
+        "MLOps-Courses/mlops-coding-course",
+        "paiml/practical-mlops-book",
+        "Meirtz/Awesome-Context-Engineering",
+        "curiousily/AI-Bootcamp",
+        "ashishps1/learn-ai-engineering",
+        "microsoft/mcp-for-beginners",
+        "anmolksachan/AI-ML-Free-Resources-for-Security-and-Prompt-Injection",
+        "dair-ai/MLOPs-Primer",
+        "business-science/awesome-generative-ai-data-scientist",
+        "bryanyzhu/agentic-ai-system-course",
+    ],
+    "best-practices": [
+        "EthicalML/awesome-production-machine-learning",
+        "NirDiamant/agents-towards-production",
+        "ai-boost/awesome-harness-engineering",
+        "benchflow-ai/awesome-evals",
+        "Puliczek/awesome-mcp-security",
+        "requie/AI-Red-Teaming-Guide",
+        "vllm-project/guidellm",
+        "visenger/awesome-mlops",
+        "lizhe2004/Awesome-LLM-RAG-Application",
+        "onejune2018/Awesome-LLM-Eval",
+        "NVIDIA-NeMo/Guardrails",
+        "GoogleCloudPlatform/agent-starter-pack",
+    ],
+    "case-studies": [
+        "patchy631/ai-engineering-hub",
+        "NirDiamant/GenAI_Agents",
+        "ikatsov/tensor-house",
+        "muratcankoylan/AI-Investigator",
+        "GoogleCloudPlatform/generative-ai",
+        "GURPREETKAURJETHRA/END-TO-END-GENERATIVE-AI-PROJECTS",
+        "pathwaycom/llm-app",
+        "Azure-Samples/AI-Gateway",
+    ],
+    "tools": [
+        "langfuse/langfuse",
+        "Arize-ai/phoenix",
+        "evidentlyai/evidently",
+        "promptfoo/promptfoo",
+        "confident-ai/deepeval",
+        "vibrantlabsai/ragas",
+        "mlflow/mlflow",
+        "modelcontextprotocol/servers",
+        "archestra-ai/archestra",
+        "langgenius/dify",
+        "daytonaio/daytona",
+        "langchain-ai/langgraph",
+    ],
 }
 
 OVERRIDE_CATEGORY = {
@@ -394,19 +457,21 @@ def tags(repo: dict, category: str) -> list[str]:
 
 
 def select(repositories: list[dict]) -> list[dict]:
-    buckets = {category: [] for category in QUOTAS}
-    for repo in repositories:
-        if not is_eligible(repo) or repo["full_name"].lower() == "global-fde/awesome-global-fde":
-            continue
-        category = classify(repo)
-        buckets[category].append(repo)
+    by_name = {repo["full_name"].lower(): repo for repo in repositories}
     selected = []
-    for category, quota in QUOTAS.items():
-        ranked = sorted(buckets[category], key=lambda repo: score(repo, category), reverse=True)
-        chosen = ranked[:quota]
-        if len(chosen) < quota:
-            raise RuntimeError(f"Not enough eligible repositories for {category}: {len(chosen)}/{quota}")
-        for repo in chosen:
+    for category, names in CURATED_REPOSITORIES.items():
+        if len(names) != QUOTAS[category]:
+            raise RuntimeError(f"Curated count mismatch for {category}: {len(names)}/{QUOTAS[category]}")
+        for name in names:
+            repo = by_name.get(name.lower())
+            if not repo:
+                raise RuntimeError(f"Curated repository missing from discovery snapshot: {name}")
+            if repo.get("archived") or repo.get("disabled"):
+                raise RuntimeError(f"Curated repository is unavailable: {name}")
+            if repo.get("stars", 0) < MINIMUM_STARS:
+                raise RuntimeError(
+                    f"Curated repository is below {MINIMUM_STARS} stars: {name} ({repo.get('stars', 0)})"
+                )
             record = {
                 "name": repo["full_name"],
                 "url": repo["html_url"],
@@ -419,50 +484,11 @@ def select(repositories: list[dict]) -> list[dict]:
                 "stars_snapshot": repo.get("stars", 0),
                 "updated_at": repo.get("updated_at"),
                 "why_it_matters": CATEGORY_META[category]["why"],
-                "editorial_state": "candidate",
+                "editorial_state": "reviewed",
                 "reviewed_on": str(date.today()),
             }
             selected.append(record)
     return selected
-
-
-def markdown(selected: list[dict]) -> str:
-    direct_count = sum(repo["direct_fde"] for repo in selected)
-    supporting_count = len(selected) - direct_count
-    lines = [
-        "# FDE GitHub Repository Collection",
-        "",
-        "> 200 repositories for Forward Deployed Engineers, organized around learning, best practices, cases, and tools.",
-        "",
-        "This collection prioritizes documentation, books, handbooks, roadmaps, courses, field methods, case material, and practical production tooling. It excludes repositories where `FDE` refers to unrelated concepts such as finite-difference equations or full-disk encryption.",
-        "",
-        f"The current snapshot contains **{direct_count} direct FDE repositories** and **{supporting_count} supporting production-AI repositories**. Direct FDE entries are labeled below; supporting entries cover the engineering stack an FDE commonly needs in the field.",
-        "",
-        "Repository metadata is a snapshot and does not imply endorsement. Always review the source, license, security posture, and maintenance status before use.",
-        "",
-        "## Contents",
-        "",
-    ]
-    for category, meta in CATEGORY_META.items():
-        anchor = meta["title"].lower().replace(" / ", "-").replace(" ", "-")
-        lines.append(f"- [{meta['title']}](#{anchor}) — {QUOTAS[category]} repositories")
-    lines.extend(["", "## Selection method", "", "- Direct FDE relevance receives the highest priority.", "- Documentation, books, guides, courses, cases, and reusable practices are preferred.", "- Supporting tools must be relevant to production agents, evaluation, observability, security, MCP, RAG, context, or deployment.", "- Stars are a discovery signal, not proof of quality.", "- Metadata is maintained in [`resources/github-repositories.yml`](resources/github-repositories.yml).", ""])
-    for category, meta in CATEGORY_META.items():
-        repos = [repo for repo in selected if repo["category"] == category]
-        lines.extend([f"## {meta['title']}", "", meta["intro"], ""])
-        for repo in repos:
-            stars = f" · ★ {repo['stars_snapshot']:,}" if repo["stars_snapshot"] else ""
-            language = f" · {repo['primary_language']}" if repo["primary_language"] else ""
-            scope = "**Direct FDE** · " if repo["direct_fde"] else ""
-            lines.append(f"- {scope}[{repo['name']}]({repo['url']}){stars}{language} — {repo['description']}")
-        lines.append("")
-    lines.extend([
-        "## Contributing",
-        "",
-        "To add or improve a repository, follow the [contribution guide](CONTRIBUTING.md), update the structured metadata, and open a focused pull request. Explain the concrete value to FDE practice and disclose any relationship to the project.",
-        "",
-    ])
-    return "\n".join(lines)
 
 
 def main() -> None:
@@ -478,14 +504,13 @@ def main() -> None:
         "direct_fde_count": sum(repo["direct_fde"] for repo in selected),
         "supporting_repository_count": sum(not repo["direct_fde"] for repo in selected),
         "category_counts": dict(counts),
-        "selection_note": "Curated from GitHub search; prefer documentation, learning, cases, and FDE-relevant production tools.",
+        "minimum_stars": MINIMUM_STARS,
+        "selection_note": "Manually curated from GitHub discovery; every published repository must meet the star threshold.",
         "repositories": selected,
     }
     YAML_OUTPUT.write_text(yaml.safe_dump(payload, allow_unicode=True, sort_keys=False, width=110), encoding="utf-8")
-    MARKDOWN_OUTPUT.write_text(markdown(selected), encoding="utf-8")
     print(f"Selected {len(selected)} repositories: {dict(counts)}")
     print(YAML_OUTPUT)
-    print(MARKDOWN_OUTPUT)
 
 
 if __name__ == "__main__":

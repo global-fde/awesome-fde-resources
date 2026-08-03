@@ -63,7 +63,8 @@ Use this route when the source already has a canonical public home.
 
 For a GitHub repository, also check
 [`resources/github-repositories.yml`](resources/github-repositories.yml) for
-duplicates. A submission should identify one of these categories:
+duplicates. New repository submissions must have at least **500 GitHub stars**
+at review time and should identify one of these categories:
 
 - `getting-started`
 - `best-practices`
@@ -73,6 +74,18 @@ duplicates. A submission should identify one of these categories:
 State whether the project is directly about FDE or supports a specific part of
 the production-AI delivery stack. Generic AI lists and projects with only a
 title-level connection to FDE will not be accepted.
+
+### C. Member profile
+
+Use this route for a practitioner, delivery team, domain expert, or technology
+partner that can provide verifiable FDE capability.
+
+1. Read the [member directory rules](members/README.md).
+2. Copy [`members/PROFILE_TEMPLATE.md`](members/PROFILE_TEMPLATE.md).
+3. Link public projects, delivery evidence, and reusable resources.
+4. Remove confidential customer information.
+5. Disclose employment, ownership, investment, referral, and other relevant
+   commercial relationships.
 
 ### B. Hosted Global FDE resource
 

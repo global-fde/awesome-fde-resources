@@ -5,6 +5,7 @@
 - Category:
 - Evidence type:
 - Language / region (if relevant):
+- GitHub stars (minimum 500 for repository submissions):
 
 ## Why it matters to FDEs
 
@@ -17,6 +18,7 @@
 - [ ] The description is factual and not promotional.
 - [ ] The resource does not expose confidential or unauthorized information.
 - [ ] I checked for duplicates.
+- [ ] I updated both `README.md` and `README.zh-CN.md` when changing the curated list.
 
 ## Conflict of interest
 

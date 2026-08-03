@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://global-fde.github.io/awesome-global-fde/sitemap.xml
