@@ -1,0 +1,30 @@
+title: "FDE：AI时代的组织新物种——FDE落地中国白皮书 2026（试读版）"
+slug: fde-deployment-in-china-whitepaper-preview-2026-zh-CN
+authors:
+  - name: "崔牛会研究院"
+    github: ""
+resource_type: report
+language:
+  - zh-CN
+original_url: ""
+created_on: 2026-07-29
+submitted_on: 2026-08-03
+license: All-Rights-Reserved
+permission_basis: maintainer-supplied-for-hosting
+permission_evidence: "A Global FDE maintainer requested repository inclusion on 2026-08-03; copyright remains with 崔牛会研究院."
+allowed_uses:
+  - host
+  - redistribute-as-is
+sensitivity_review:
+  customer_identifiers_removed: true
+  personal_data_removed: true
+  credentials_removed: true
+  nda_content_removed: true
+conflict_of_interest: "Publisher relationship not specified."
+integrity:
+  sha256: ee43b7629de1a49b2e574401bd853077a05b1c2200f4dd152a283dc77ca32dac
+review:
+  status: accepted
+  reviewers:
+    - Global FDE maintainer
+  reviewed_on: 2026-08-03

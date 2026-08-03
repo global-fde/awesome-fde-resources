@@ -13,6 +13,7 @@ We prefer credible books, guides, production practices, real implementations, an
 - [Cases and reference implementations](#cases-and-reference-implementations) — 8
 - [Tools](#tools) — 12
 - [FDE member network](#fde-member-network)
+- [Hosted Chinese resources](#hosted-chinese-resources) — 2
 
 ## Getting started
 
@@ -79,6 +80,13 @@ We prefer credible books, guides, production practices, real implementations, an
 ## FDE member network
 
 The [member directory](members/README.md) introduces practitioners and teams that can provide FDE knowledge, delivery capability, projects, or reusable resources. Entries require public evidence and clear conflict-of-interest disclosure.
+
+## Hosted Chinese resources
+
+- [*FDE: A New Organizational Species in the AI Era - FDE Deployment in China Whitepaper 2026 (Preview)*](library/reports/fde-deployment-in-china-whitepaper-preview-2026-zh-CN.pdf) — A 15-page decision preview from Cui Niu Hui Research on deployment gaps, the role of FDE, and when enterprises need deep deployment.
+- [*How to Become an FDE Engineer (Key Notes)*](library/guides/how-to-become-an-fde-engineer-notes-zh-CN.pdf) — Zhang Zifeng ARK's concise notes on FDE capabilities, production deployment, deliverables, portfolio building, and customer discovery.
+
+These files remain under their named authors' and publishers' rights. See each neighboring `.source.yml` record for provenance and permitted use.
 
 ## Contributing
 

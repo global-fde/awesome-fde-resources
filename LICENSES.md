@@ -16,4 +16,6 @@ Source code under [`scripts/`](scripts/) is licensed under the [Apache License 2
 
 Linked repositories, books, articles, projects, logos, names, and third-party materials remain under their respective owners' licenses and terms. Listing a resource does not relicense it and does not imply endorsement.
 
+Third-party files hosted under [`library/`](library/) are not covered by the repository-wide CC BY 4.0 license unless their neighboring source record explicitly says so. Their attribution, license, permitted uses, and provenance are recorded in the adjacent `.source.yml` file.
+
 Member profile information may also be subject to privacy, publicity, trademark, and other rights that are not granted by the content license.

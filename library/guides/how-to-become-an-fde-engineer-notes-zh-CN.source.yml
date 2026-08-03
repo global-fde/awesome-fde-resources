@@ -1,0 +1,30 @@
+title: "如何成为 FDE 工程师（要点笔记）"
+slug: how-to-become-an-fde-engineer-notes-zh-CN
+authors:
+  - name: "张子峰 ARK"
+    github: ""
+resource_type: guide
+language:
+  - zh-CN
+original_url: "https://x.com/0xMorlex/status/2083144963819270357"
+created_on: 2026-08-01
+submitted_on: 2026-08-03
+license: All-Rights-Reserved
+permission_basis: maintainer-supplied-for-hosting
+permission_evidence: "A Global FDE maintainer requested repository inclusion on 2026-08-03; copyright remains with 张子峰 ARK and the cited source owners."
+allowed_uses:
+  - host
+  - redistribute-as-is
+sensitivity_review:
+  customer_identifiers_removed: true
+  personal_data_removed: true
+  credentials_removed: true
+  nda_content_removed: true
+conflict_of_interest: "Author relationship not specified."
+integrity:
+  sha256: e8fedeb22e7f76cd3def64e1632c57ac559a7bdd12be1e104a29af74ece56978
+review:
+  status: accepted
+  reviewers:
+    - Global FDE maintainer
+  reviewed_on: 2026-08-03

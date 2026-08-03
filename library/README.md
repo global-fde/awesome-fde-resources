@@ -11,6 +11,18 @@ the community can review, improve, translate, and preserve in version control.
 - `reports/` — original Global FDE research and reports;
 - `translations/` — translations published with the rights holder's permission.
 
+## Current hosted resources
+
+### Reports
+
+- [FDE Deployment in China Whitepaper 2026 (Chinese preview)](reports/fde-deployment-in-china-whitepaper-preview-2026-zh-CN.pdf) — 崔牛会研究院, 15 pages.
+
+### Guides
+
+- [How to Become an FDE Engineer (Chinese key notes)](guides/how-to-become-an-fde-engineer-notes-zh-CN.pdf) — 张子峰 ARK, 5 pages.
+
+Each PDF has a neighboring `.source.yml` record containing attribution, integrity hash, permission basis, and review status.
+
 ## Required source record
 
 Every hosted resource must include a neighboring source record based on
