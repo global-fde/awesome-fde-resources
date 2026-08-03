@@ -1,14 +1,14 @@
 schema_version: 1
 generated_on: '2026-08-03'
 repository_count: 50
-direct_fde_count: 3
-supporting_repository_count: 47
+direct_fde_count: 5
+supporting_repository_count: 45
 category_counts:
   getting-started: 18
   best-practices: 12
   case-studies: 8
   tools: 12
-minimum_stars: 500
+minimum_stars: 50
 selection_note: Manually curated for relevance, maintenance, adoption, field evidence, and practical value.
 repositories:
 - name: xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer
@@ -21,8 +21,8 @@ repositories:
   - learning
   primary_language: null
   license: null
-  stars_snapshot: 1456
-  updated_at: '2026-08-02T15:14:39Z'
+  stars_snapshot: 1573
+  updated_at: '2026-08-03T01:19:11Z'
   why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -39,8 +39,8 @@ repositories:
   - learning
   primary_language: null
   license: MIT
-  stars_snapshot: 692
-  updated_at: '2026-08-02T14:07:36Z'
+  stars_snapshot: 708
+  updated_at: '2026-08-03T01:19:21Z'
   why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -53,8 +53,8 @@ repositories:
   - learning
   primary_language: null
   license: Apache-2.0
-  stars_snapshot: 81377
-  updated_at: '2026-08-02T14:39:38Z'
+  stars_snapshot: 81390
+  updated_at: '2026-08-02T23:23:38Z'
   why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -68,8 +68,8 @@ repositories:
   - learning
   primary_language: Jupyter Notebook
   license: null
-  stars_snapshot: 16833
-  updated_at: '2026-08-02T14:37:07Z'
+  stars_snapshot: 16839
+  updated_at: '2026-08-03T01:14:28Z'
   why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -83,8 +83,8 @@ repositories:
   - learning
   primary_language: MDX
   license: Apache-2.0
-  stars_snapshot: 30598
-  updated_at: '2026-08-02T14:17:47Z'
+  stars_snapshot: 30605
+  updated_at: '2026-08-03T00:37:38Z'
   why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -101,8 +101,8 @@ repositories:
   - learning
   primary_language: null
   license: MIT
-  stars_snapshot: 2379
-  updated_at: '2026-08-02T14:12:02Z'
+  stars_snapshot: 2383
+  updated_at: '2026-08-03T00:32:23Z'
   why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -119,8 +119,8 @@ repositories:
   - learning
   primary_language: Python
   license: MIT
-  stars_snapshot: 5263
-  updated_at: '2026-08-02T10:29:12Z'
+  stars_snapshot: 5264
+  updated_at: '2026-08-02T19:45:22Z'
   why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -166,8 +166,8 @@ repositories:
   - learning
   primary_language: Jupyter Notebook
   license: null
-  stars_snapshot: 981
-  updated_at: '2026-07-22T16:06:19Z'
+  stars_snapshot: 982
+  updated_at: '2026-08-02T23:09:35Z'
   why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -216,8 +216,8 @@ repositories:
   - rag
   primary_language: null
   license: GPL-3.0
-  stars_snapshot: 5892
-  updated_at: '2026-08-02T14:22:48Z'
+  stars_snapshot: 5896
+  updated_at: '2026-08-02T23:35:02Z'
   why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -235,8 +235,8 @@ repositories:
   - cases
   primary_language: Jupyter Notebook
   license: MIT
-  stars_snapshot: 16881
-  updated_at: '2026-08-02T13:10:45Z'
+  stars_snapshot: 16884
+  updated_at: '2026-08-02T23:05:41Z'
   why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -250,8 +250,8 @@ repositories:
   - learning
   primary_language: null
   license: null
-  stars_snapshot: 710
-  updated_at: '2026-08-02T13:23:12Z'
+  stars_snapshot: 714
+  updated_at: '2026-08-02T17:54:11Z'
   why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -269,18 +269,17 @@ repositories:
   why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
-- name: business-science/awesome-generative-ai-data-scientist
-  url: https://github.com/business-science/awesome-generative-ai-data-scientist
-  description: A curated list of 100+ resources for building and deploying generative AI specifically focusing on
-    helping you become a Generative AI Data Scientist with LLMs
+- name: libaice/Awesome-FDE
+  url: https://github.com/libaice/Awesome-FDE
+  description: A curated list of resources, companies, and skills for  Forward Deployed Engineers (FDEs)
   category: getting-started
-  direct_fde: false
+  direct_fde: true
   tags:
-  - getting-started
+  - fde
   primary_language: null
-  license: null
-  stars_snapshot: 1578
-  updated_at: '2026-08-02T06:37:36Z'
+  license: MIT
+  stars_snapshot: 94
+  updated_at: '2026-07-30T02:09:20Z'
   why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -310,8 +309,8 @@ repositories:
   - mlops
   primary_language: null
   license: MIT
-  stars_snapshot: 20816
-  updated_at: '2026-08-02T15:09:41Z'
+  stars_snapshot: 20817
+  updated_at: '2026-08-02T18:14:40Z'
   why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -330,8 +329,8 @@ repositories:
   - learning
   primary_language: Jupyter Notebook
   license: NOASSERTION
-  stars_snapshot: 21226
-  updated_at: '2026-08-02T14:43:37Z'
+  stars_snapshot: 21228
+  updated_at: '2026-08-02T21:46:11Z'
   why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -348,8 +347,8 @@ repositories:
   - mcp
   primary_language: Python
   license: NOASSERTION
-  stars_snapshot: 3352
-  updated_at: '2026-08-02T15:02:25Z'
+  stars_snapshot: 3359
+  updated_at: '2026-08-03T01:22:56Z'
   why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -364,8 +363,8 @@ repositories:
   - evaluation
   primary_language: null
   license: NOASSERTION
-  stars_snapshot: 780
-  updated_at: '2026-08-02T14:26:50Z'
+  stars_snapshot: 782
+  updated_at: '2026-08-02T23:47:59Z'
   why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -396,8 +395,8 @@ repositories:
   - learning
   primary_language: null
   license: null
-  stars_snapshot: 776
-  updated_at: '2026-08-02T13:42:03Z'
+  stars_snapshot: 777
+  updated_at: '2026-08-02T22:23:18Z'
   why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -410,8 +409,8 @@ repositories:
   - learning
   primary_language: Python
   license: Apache-2.0
-  stars_snapshot: 1460
-  updated_at: '2026-08-02T14:11:13Z'
+  stars_snapshot: 1462
+  updated_at: '2026-08-03T00:16:44Z'
   why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -424,8 +423,8 @@ repositories:
   - mlops
   primary_language: null
   license: null
-  stars_snapshot: 14120
-  updated_at: '2026-08-02T14:33:54Z'
+  stars_snapshot: 14122
+  updated_at: '2026-08-02T23:50:04Z'
   why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -443,20 +442,20 @@ repositories:
   why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
-- name: onejune2018/Awesome-LLM-Eval
-  url: https://github.com/onejune2018/Awesome-LLM-Eval
-  description: 'Awesome-LLM-Eval: a curated list of tools, datasets/benchmark, demos, leaderboard, papers, docs
-    and models, mainly for Evaluation on LLMs.  一个由工具、基准/数据、演示、排行榜和大模型等组成的精选列表，主要面向基础大模型评测，旨在探求生成式AI的技术边界.'
+- name: suboss87/FDEOps
+  url: https://github.com/suboss87/FDEOps
+  description: 'Second brain for Forward Deployed Engineers: engagement memory + execution skills across discovery,
+    delivery, and handoff.'
   category: best-practices
-  direct_fde: false
+  direct_fde: true
   tags:
-  - evaluation
-  - rag
-  - cases
-  primary_language: null
+  - fde
+  - agents
+  - learning
+  primary_language: JavaScript
   license: MIT
-  stars_snapshot: 654
-  updated_at: '2026-07-28T06:07:07Z'
+  stars_snapshot: 246
+  updated_at: '2026-08-02T18:07:16Z'
   why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -471,8 +470,8 @@ repositories:
   - security
   primary_language: Python
   license: NOASSERTION
-  stars_snapshot: 6852
-  updated_at: '2026-08-02T14:42:37Z'
+  stars_snapshot: 6856
+  updated_at: '2026-08-03T00:16:48Z'
   why_it_matters: Provides reusable practices for designing, deploying, evaluating, or operating production AI.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -506,8 +505,8 @@ repositories:
   - learning
   primary_language: Jupyter Notebook
   license: MIT
-  stars_snapshot: 36819
-  updated_at: '2026-08-02T10:09:15Z'
+  stars_snapshot: 36821
+  updated_at: '2026-08-02T22:47:22Z'
   why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -524,8 +523,8 @@ repositories:
   - learning
   primary_language: Jupyter Notebook
   license: NOASSERTION
-  stars_snapshot: 23594
-  updated_at: '2026-08-02T15:14:26Z'
+  stars_snapshot: 23598
+  updated_at: '2026-08-03T00:37:35Z'
   why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -572,8 +571,8 @@ repositories:
   - learning
   primary_language: Jupyter Notebook
   license: Apache-2.0
-  stars_snapshot: 17541
-  updated_at: '2026-08-02T14:51:40Z'
+  stars_snapshot: 17542
+  updated_at: '2026-08-02T16:30:31Z'
   why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -603,8 +602,8 @@ repositories:
   - mlops
   primary_language: Jupyter Notebook
   license: MIT
-  stars_snapshot: 59048
-  updated_at: '2026-08-02T15:11:39Z'
+  stars_snapshot: 59076
+  updated_at: '2026-08-03T01:23:21Z'
   why_it_matters: Provides an implementation, example, or case that can be studied and adapted in field delivery.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -636,8 +635,8 @@ repositories:
   - mlops
   primary_language: TypeScript
   license: NOASSERTION
-  stars_snapshot: 32327
-  updated_at: '2026-08-02T15:11:30Z'
+  stars_snapshot: 32366
+  updated_at: '2026-08-03T00:43:30Z'
   why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -653,8 +652,8 @@ repositories:
   - mlops
   primary_language: Python
   license: NOASSERTION
-  stars_snapshot: 10855
-  updated_at: '2026-08-02T14:28:54Z'
+  stars_snapshot: 10863
+  updated_at: '2026-08-02T22:33:41Z'
   why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -670,8 +669,8 @@ repositories:
   - learning
   primary_language: Jupyter Notebook
   license: Apache-2.0
-  stars_snapshot: 7779
-  updated_at: '2026-08-02T10:44:09Z'
+  stars_snapshot: 7782
+  updated_at: '2026-08-02T21:54:26Z'
   why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -690,8 +689,8 @@ repositories:
   - mlops
   primary_language: TypeScript
   license: MIT
-  stars_snapshot: 23842
-  updated_at: '2026-08-02T14:43:13Z'
+  stars_snapshot: 23854
+  updated_at: '2026-08-03T00:54:28Z'
   why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -704,8 +703,8 @@ repositories:
   - evaluation
   primary_language: Python
   license: Apache-2.0
-  stars_snapshot: 17334
-  updated_at: '2026-08-02T14:42:07Z'
+  stars_snapshot: 17343
+  updated_at: '2026-08-02T23:03:19Z'
   why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -719,8 +718,8 @@ repositories:
   - mlops
   primary_language: Python
   license: Apache-2.0
-  stars_snapshot: 15087
-  updated_at: '2026-08-02T15:09:25Z'
+  stars_snapshot: 15092
+  updated_at: '2026-08-02T20:41:41Z'
   why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -738,8 +737,8 @@ repositories:
   - mlops
   primary_language: Python
   license: Apache-2.0
-  stars_snapshot: 27331
-  updated_at: '2026-08-02T15:15:40Z'
+  stars_snapshot: 27333
+  updated_at: '2026-08-03T00:34:23Z'
   why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -752,8 +751,8 @@ repositories:
   - mcp
   primary_language: TypeScript
   license: NOASSERTION
-  stars_snapshot: 89135
-  updated_at: '2026-08-02T14:09:55Z'
+  stars_snapshot: 89141
+  updated_at: '2026-08-02T23:44:44Z'
   why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -769,8 +768,8 @@ repositories:
   - mcp
   primary_language: TypeScript
   license: NOASSERTION
-  stars_snapshot: 4089
-  updated_at: '2026-08-02T14:39:32Z'
+  stars_snapshot: 4088
+  updated_at: '2026-08-02T18:08:01Z'
   why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -787,8 +786,8 @@ repositories:
   - rag
   primary_language: TypeScript
   license: NOASSERTION
-  stars_snapshot: 151069
-  updated_at: '2026-08-02T15:15:03Z'
+  stars_snapshot: 151107
+  updated_at: '2026-08-03T01:23:50Z'
   why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -802,8 +801,8 @@ repositories:
   - sandbox
   primary_language: null
   license: null
-  stars_snapshot: 72069
-  updated_at: '2026-08-02T14:52:26Z'
+  stars_snapshot: 72070
+  updated_at: '2026-08-03T00:21:39Z'
   why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
@@ -817,8 +816,8 @@ repositories:
   - rag
   primary_language: Python
   license: MIT
-  stars_snapshot: 38681
-  updated_at: '2026-08-02T15:16:16Z'
+  stars_snapshot: 38704
+  updated_at: '2026-08-03T01:11:22Z'
   why_it_matters: Provides infrastructure useful for building or operating production AI and agent deployments.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'

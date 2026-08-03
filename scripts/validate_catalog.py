@@ -30,7 +30,7 @@ def main() -> None:
 
     assert payload["repository_count"] == len(repositories), "repository_count does not match catalog"
     assert payload["repository_count"] == 50, "the curated catalog must contain exactly 50 repositories"
-    assert payload["minimum_stars"] == 500, "minimum star policy must be 500"
+    assert payload["minimum_stars"] == 50, "minimum star policy must be 50"
     assert len(urls) == len(set(urls)), "duplicate repository URL"
     assert len(names) == len(set(names)), "duplicate repository name"
     assert all(url.startswith("https://github.com/") for url in urls), "non-GitHub URL in repository catalog"

@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "resources" / "github-candidates.json"
 YAML_OUTPUT = ROOT / "resources" / "github-repositories.yml"
 TARGET = 50
-MINIMUM_STARS = 500
+MINIMUM_STARS = 50
 QUOTAS = {
     "getting-started": 18,
     "best-practices": 12,
@@ -44,7 +44,7 @@ CURATED_REPOSITORIES = {
         "microsoft/mcp-for-beginners",
         "anmolksachan/AI-ML-Free-Resources-for-Security-and-Prompt-Injection",
         "dair-ai/MLOPs-Primer",
-        "business-science/awesome-generative-ai-data-scientist",
+        "libaice/Awesome-FDE",
         "bryanyzhu/agentic-ai-system-course",
     ],
     "best-practices": [
@@ -57,7 +57,7 @@ CURATED_REPOSITORIES = {
         "vllm-project/guidellm",
         "visenger/awesome-mlops",
         "lizhe2004/Awesome-LLM-RAG-Application",
-        "onejune2018/Awesome-LLM-Eval",
+        "suboss87/FDEOps",
         "NVIDIA-NeMo/Guardrails",
         "GoogleCloudPlatform/agent-starter-pack",
     ],

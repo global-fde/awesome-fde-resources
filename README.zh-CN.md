@@ -33,7 +33,7 @@
 - [microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners) — 微软开源的跨语言 MCP 入门教程。
 - [anmolksachan/AI-ML-Free-Resources-for-Security-and-Prompt-Injection](https://github.com/anmolksachan/AI-ML-Free-Resources-for-Security-and-Prompt-Injection) — AI 安全与提示注入测试入门路线。
 - [dair-ai/MLOPs-Primer](https://github.com/dair-ai/MLOPs-Primer) — MLOps 基础学习资料。
-- [business-science/awesome-generative-ai-data-scientist](https://github.com/business-science/awesome-generative-ai-data-scientist) — 构建和部署生成式 AI 应用的资料集合。
+- [libaice/Awesome-FDE](https://github.com/libaice/Awesome-FDE) — 中英文 FDE 资料、相关公司、核心技能与面试准备清单。
 - [bryanyzhu/agentic-ai-system-course](https://github.com/bryanyzhu/agentic-ai-system-course) — 生产级 Agent 系统设计与运行课程。
 
 ## 最佳实践
@@ -47,7 +47,7 @@
 - [vllm-project/guidellm](https://github.com/vllm-project/guidellm) — 面向真实推理负载的 LLM 服务性能评估。
 - [visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) — MLOps 实践和生产工具集合。
 - [lizhe2004/Awesome-LLM-RAG-Application](https://github.com/lizhe2004/Awesome-LLM-RAG-Application) — RAG 应用模式与实现资料。
-- [onejune2018/Awesome-LLM-Eval](https://github.com/onejune2018/Awesome-LLM-Eval) — LLM 评估工具、数据集、榜单和论文。
+- [suboss87/FDEOps](https://github.com/suboss87/FDEOps) — 面向 FDE 的本地客户项目记忆、交付方法与 Agent Skills，覆盖需求发现到项目交接。
 - [NVIDIA-NeMo/Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) — 为 LLM 应用增加可编程 Guardrails。
 - [GoogleCloudPlatform/agent-starter-pack](https://github.com/GoogleCloudPlatform/agent-starter-pack) — 内置 CI/CD、评估和可观测性的生产 Agent 模板。
 

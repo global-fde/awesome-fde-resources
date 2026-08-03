@@ -33,7 +33,7 @@ We prefer credible books, guides, production practices, real implementations, an
 - [microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners) — Cross-language introduction to Model Context Protocol.
 - [anmolksachan/AI-ML-Free-Resources-for-Security-and-Prompt-Injection](https://github.com/anmolksachan/AI-ML-Free-Resources-for-Security-and-Prompt-Injection) — Beginner roadmap for AI security and prompt injection testing.
 - [dair-ai/MLOPs-Primer](https://github.com/dair-ai/MLOPs-Primer) — Curated foundation for learning MLOps.
-- [business-science/awesome-generative-ai-data-scientist](https://github.com/business-science/awesome-generative-ai-data-scientist) — Resources for building and deploying GenAI applications.
+- [libaice/Awesome-FDE](https://github.com/libaice/Awesome-FDE) — Bilingual collection of FDE resources, companies, core skills, and interview preparation materials.
 - [bryanyzhu/agentic-ai-system-course](https://github.com/bryanyzhu/agentic-ai-system-course) — Course skeleton for designing and operating production agents.
 
 ## Best practices
@@ -47,7 +47,7 @@ We prefer credible books, guides, production practices, real implementations, an
 - [vllm-project/guidellm](https://github.com/vllm-project/guidellm) — Evaluate LLM serving performance under real inference workloads.
 - [visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) — Curated MLOps references and production tooling.
 - [lizhe2004/Awesome-LLM-RAG-Application](https://github.com/lizhe2004/Awesome-LLM-RAG-Application) — RAG application patterns and implementation resources.
-- [onejune2018/Awesome-LLM-Eval](https://github.com/onejune2018/Awesome-LLM-Eval) — LLM evaluation tools, datasets, leaderboards, and papers.
+- [suboss87/FDEOps](https://github.com/suboss87/FDEOps) — Local-first engagement memory, delivery methodology, and agent skills covering discovery through handoff.
 - [NVIDIA-NeMo/Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) — Programmable guardrails for LLM applications.
 - [GoogleCloudPlatform/agent-starter-pack](https://github.com/GoogleCloudPlatform/agent-starter-pack) — Production agent templates with CI/CD, evaluation, and observability.
 
