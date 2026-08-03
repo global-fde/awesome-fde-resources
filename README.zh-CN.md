@@ -83,10 +83,10 @@
 
 ## 中文托管资料
 
-- [《FDE：AI 时代的组织新物种——FDE 落地中国白皮书 2026（试读版）》](library/reports/fde-deployment-in-china-whitepaper-preview-2026-zh-CN.pdf) — 崔牛会研究院发布的 15 页决策试读版，讨论部署断层、FDE 的角色，以及企业何时需要深度部署。
-- [《如何成为 FDE 工程师（要点笔记）》](library/guides/how-to-become-an-fde-engineer-notes-zh-CN.pdf) — 张子峰 ARK 整理的 FDE 能力、生产部署、交付物、案例建设和客户需求发现要点。
-- [《FDE 访谈整理：AI 落地、产品化与人才画像》](library/interviews/fde-interview-ai-deployment-productization-talent-profile-zh-CN.pdf) — 16 页访谈编辑长文，涵盖企业 AI 落地、Cresta 实践、FDE 招聘、客户信任、产品回流和职业路径。
-- [《关于 Forward Deployed Engineer 的 100 个问题》](library/guides/one-hundred-questions-about-fde-zh-CN.pdf) — AI 磊叔整理的 92 页问答式指南，系统讨论 FDE 的机会、角色边界、技能、客户工作、交付、商业化与长期发展。
+- [《FDE：AI 时代的组织新物种——FDE 落地中国白皮书 2026（试读版）》](https://github.com/global-fde/awesome-fde-resources/blob/main/library/reports/fde-deployment-in-china-whitepaper-preview-2026-zh-CN.pdf) — 崔牛会研究院发布的 15 页决策试读版，讨论部署断层、FDE 的角色，以及企业何时需要深度部署。
+- [《如何成为 FDE 工程师（要点笔记）》](https://github.com/global-fde/awesome-fde-resources/blob/main/library/guides/how-to-become-an-fde-engineer-notes-zh-CN.pdf) — 张子峰 ARK 整理的 FDE 能力、生产部署、交付物、案例建设和客户需求发现要点。
+- [《FDE 访谈整理：AI 落地、产品化与人才画像》](https://github.com/global-fde/awesome-fde-resources/blob/main/library/interviews/fde-interview-ai-deployment-productization-talent-profile-zh-CN.pdf) — 16 页访谈编辑长文，涵盖企业 AI 落地、Cresta 实践、FDE 招聘、客户信任、产品回流和职业路径。
+- [《关于 Forward Deployed Engineer 的 100 个问题》](https://github.com/global-fde/awesome-fde-resources/blob/main/library/guides/one-hundred-questions-about-fde-zh-CN.pdf) — AI 磊叔整理的 92 页问答式指南，系统讨论 FDE 的机会、角色边界、技能、客户工作、交付、商业化与长期发展。
 
 上述资料的著作权仍归各自署名作者及出版方所有；每份资料的来源与允许使用范围见 PDF 相邻的 `.source.yml` 记录。
 
