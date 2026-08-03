@@ -1,6 +1,6 @@
 # Resource data
 
-[`github-repositories.yml`](github-repositories.yml) is the machine-readable source for the 50 repositories listed in both language versions of the README.
+[`github-repositories.yml`](github-repositories.yml) is the machine-readable source for the 59 repositories listed in both language versions of the README.
 
 Publication rules:
 

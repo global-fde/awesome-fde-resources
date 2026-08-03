@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish the manually curated 50-repository Global FDE catalog."""
+"""Publish the manually curated 59-repository Global FDE catalog."""
 
 from __future__ import annotations
 
@@ -15,13 +15,13 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "resources" / "github-candidates.json"
 YAML_OUTPUT = ROOT / "resources" / "github-repositories.yml"
-TARGET = 50
+TARGET = 59
 MINIMUM_STARS = 50
 QUOTAS = {
-    "getting-started": 18,
-    "best-practices": 12,
+    "getting-started": 19,
+    "best-practices": 15,
     "case-studies": 8,
-    "tools": 12,
+    "tools": 17,
 }
 
 # Explicit editorial selection. Search discovers candidates; it never publishes
@@ -46,6 +46,7 @@ CURATED_REPOSITORIES = {
         "dair-ai/MLOPs-Primer",
         "libaice/Awesome-FDE",
         "bryanyzhu/agentic-ai-system-course",
+        "alexeygrigorev/ai-engineering-field-guide",
     ],
     "best-practices": [
         "EthicalML/awesome-production-machine-learning",
@@ -60,6 +61,9 @@ CURATED_REPOSITORIES = {
         "suboss87/FDEOps",
         "NVIDIA-NeMo/Guardrails",
         "GoogleCloudPlatform/agent-starter-pack",
+        "humanlayer/12-factor-agents",
+        "databricks/databricks-agent-skills",
+        "anthropics/cwc-long-running-agents",
     ],
     "case-studies": [
         "patchy631/ai-engineering-hub",
@@ -84,6 +88,11 @@ CURATED_REPOSITORIES = {
         "langgenius/dify",
         "daytonaio/daytona",
         "langchain-ai/langgraph",
+        "google/agents-cli",
+        "opensandbox-group/OpenSandbox",
+        "microsoft/PyRIT",
+        "langwatch/scenario",
+        "snyk/agent-scan",
     ],
 }
 
@@ -152,6 +161,15 @@ FORCE_INCLUDE = {
     "cma0232/fde-interview-prep",
     "leading-ai-io/the-forward-deployed-shift",
     "suboss87/fdeops",
+    "alexeygrigorev/ai-engineering-field-guide",
+    "humanlayer/12-factor-agents",
+    "databricks/databricks-agent-skills",
+    "anthropics/cwc-long-running-agents",
+    "google/agents-cli",
+    "opensandbox-group/opensandbox",
+    "microsoft/pyrit",
+    "langwatch/scenario",
+    "snyk/agent-scan",
     "mollyretter/forward-deployed-engineer-toolkit",
     "kalyvask/fde-simulation",
     "aifde/fde-practice-cases",

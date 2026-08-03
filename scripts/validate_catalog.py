@@ -29,7 +29,7 @@ def main() -> None:
     direct_count = sum(bool(repo["direct_fde"]) for repo in repositories)
 
     assert payload["repository_count"] == len(repositories), "repository_count does not match catalog"
-    assert payload["repository_count"] == 50, "the curated catalog must contain exactly 50 repositories"
+    assert payload["repository_count"] == 59, "the curated catalog must contain exactly 59 repositories"
     assert payload["minimum_stars"] == 50, "minimum star policy must be 50"
     assert len(urls) == len(set(urls)), "duplicate repository URL"
     assert len(names) == len(set(names)), "duplicate repository name"

@@ -14,7 +14,7 @@ import time
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
@@ -53,6 +53,67 @@ SEARCHES = [
     Search("best-practices", 'LLMOps guide in:name,description,readme stars:>20', "Provides reusable practices for deploying and operating LLM systems."),
 ]
 
+# Editorially reviewed repositories that broad keyword search may miss because
+# their GitHub descriptions do not spell out every production-delivery use
+# case. They are still fetched from GitHub's public API so metadata snapshots
+# remain auditable and reproducible.
+EDITORIAL_SEEDS = {
+    "alexeygrigorev/ai-engineering-field-guide": Search(
+        "learning-guides",
+        "editorial-seed:ai-engineering-field-guide",
+        "Uses real job-market evidence, including a dedicated analysis of FDE roles.",
+    ),
+    "humanlayer/12-factor-agents": Search(
+        "best-practices",
+        "editorial-seed:12-factor-agents",
+        "Documents reusable principles for reliable customer-facing agent systems.",
+    ),
+    "databricks/databricks-agent-skills": Search(
+        "best-practices",
+        "editorial-seed:databricks-agent-skills",
+        "Turns field engineering knowledge into reusable enterprise deployment skills.",
+    ),
+    "anthropics/cwc-long-running-agents": Search(
+        "best-practices",
+        "editorial-seed:cwc-long-running-agents",
+        "Provides first-party harness primitives for reliable long-running agents.",
+    ),
+    "google/agents-cli": Search(
+        "agent-platforms",
+        "editorial-seed:google-agents-cli",
+        "Supports building, evaluating, governing, and deploying enterprise agents.",
+    ),
+    "opensandbox-group/OpenSandbox": Search(
+        "security-sandbox",
+        "editorial-seed:opensandbox",
+        "Provides secure execution infrastructure for production agent workloads.",
+    ),
+    "microsoft/PyRIT": Search(
+        "security-sandbox",
+        "editorial-seed:pyrit",
+        "Provides enterprise risk identification and red teaming for generative AI.",
+    ),
+    "langwatch/scenario": Search(
+        "evaluation-observability",
+        "editorial-seed:scenario",
+        "Tests multi-turn agent behavior with simulated users and edge cases.",
+    ),
+    "snyk/agent-scan": Search(
+        "security-sandbox",
+        "editorial-seed:agent-scan",
+        "Scans agents, MCP servers, and skills for prompt injection and vulnerabilities.",
+    ),
+}
+
+EDITORIAL_DESCRIPTION_FALLBACKS = {
+    "anthropics/cwc-long-running-agents": (
+        "First-party harness primitives and evaluator loops for reliable long-running Claude agents."
+    ),
+    "databricks/databricks-agent-skills": (
+        "Official skills for AI coding assistants covering Databricks data, governance, evaluation, and deployment workflows."
+    ),
+}
+
 EXCLUDE_TERMS = {
     "finite difference",
     "finite-difference",
@@ -74,6 +135,7 @@ def request_json(url: str) -> tuple[dict, dict[str, str]]:
     }
     if TOKEN:
         headers["Authorization"] = f"Bearer {TOKEN}"
+    transient_attempts = 0
     while True:
         request = Request(url, headers=headers)
         try:
@@ -89,6 +151,17 @@ def request_json(url: str) -> tuple[dict, dict[str, str]]:
                 time.sleep(delay)
                 continue
             raise
+        except (URLError, TimeoutError, ConnectionError) as error:
+            transient_attempts += 1
+            if transient_attempts >= 5:
+                raise
+            delay = min(2**transient_attempts, 30)
+            print(
+                f"Transient GitHub connection error; retrying in {delay}s "
+                f"({transient_attempts}/4): {error}",
+                flush=True,
+            )
+            time.sleep(delay)
 
 
 def normalize(item: dict, search: Search) -> dict:
@@ -152,6 +225,20 @@ def main() -> None:
                     existing["fde_relevance"] = search.relevance
             else:
                 repositories[candidate["full_name"].lower()] = candidate
+    for full_name, search in EDITORIAL_SEEDS.items():
+        print(f"[editorial seed] {full_name}", flush=True)
+        item, _ = request_json(f"https://api.github.com/repos/{full_name}")
+        candidate = normalize(item, search)
+        if not candidate["description"]:
+            candidate["description"] = EDITORIAL_DESCRIPTION_FALLBACKS.get(full_name, "")
+        existing = repositories.get(candidate["full_name"].lower())
+        if existing:
+            if search.query not in existing["matched_queries"]:
+                existing["matched_queries"].append(search.query)
+            if not existing["description"] and candidate["description"]:
+                existing["description"] = candidate["description"]
+        else:
+            repositories[candidate["full_name"].lower()] = candidate
     ranked = sorted(
         repositories.values(),
         key=lambda repo: (

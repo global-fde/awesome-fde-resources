@@ -8,10 +8,10 @@
 
 ## 目录
 
-- [入门与系统学习](#入门与系统学习) — 18
-- [最佳实践](#最佳实践) — 12
+- [入门与系统学习](#入门与系统学习) — 19
+- [最佳实践](#最佳实践) — 15
 - [案例与参考实现](#案例与参考实现) — 8
-- [工具](#工具) — 12
+- [工具](#工具) — 17
 - [FDE 会员网络](#fde-会员网络)
 - [中文托管资料](#中文托管资料) — 4
 
@@ -35,6 +35,7 @@
 - [dair-ai/MLOPs-Primer](https://github.com/dair-ai/MLOPs-Primer) — MLOps 基础学习资料。
 - [libaice/Awesome-FDE](https://github.com/libaice/Awesome-FDE) — 中英文 FDE 资料、相关公司、核心技能与面试准备清单。
 - [bryanyzhu/agentic-ai-system-course](https://github.com/bryanyzhu/agentic-ai-system-course) — 生产级 Agent 系统设计与运行课程。
+- [alexeygrigorev/ai-engineering-field-guide](https://github.com/alexeygrigorev/ai-engineering-field-guide) — 基于真实岗位数据的 AI Engineering 指南，其中包含对 146 个 FDE 岗位职责与技能的分析。
 
 ## 最佳实践
 
@@ -50,6 +51,9 @@
 - [suboss87/FDEOps](https://github.com/suboss87/FDEOps) — 面向 FDE 的本地客户项目记忆、交付方法与 Agent Skills，覆盖需求发现到项目交接。
 - [NVIDIA-NeMo/Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) — 为 LLM 应用增加可编程 Guardrails。
 - [GoogleCloudPlatform/agent-starter-pack](https://github.com/GoogleCloudPlatform/agent-starter-pack) — 内置 CI/CD、评估和可观测性的生产 Agent 模板。
+- [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) — 面向客户生产环境的可靠 Agent 十二条工程原则。
+- [databricks/databricks-agent-skills](https://github.com/databricks/databricks-agent-skills) — Databricks 官方 Agent Skills，覆盖数据、治理、评估和部署工作流。
+- [anthropics/cwc-long-running-agents](https://github.com/anthropics/cwc-long-running-agents) — Anthropic 官方长时运行 Agent Harness 原语与独立评估循环。
 
 ## 案例与参考实现
 
@@ -76,6 +80,11 @@
 - [langgenius/dify](https://github.com/langgenius/dify) — Agent Workflow、RAG、模型和工具平台。
 - [daytonaio/daytona](https://github.com/daytonaio/daytona) — 安全运行 AI 生成代码的基础设施。
 - [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) — 构建可靠 Agent 的 Runtime 与编排框架。
+- [google/agents-cli](https://github.com/google/agents-cli) — 用于在 Google Cloud 创建、评估、治理和部署 Agent 的 CLI 与 Skills。
+- [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) — 支持 SDK、MCP、Docker 和 Kubernetes 的安全可扩展 Agent Sandbox Runtime。
+- [microsoft/PyRIT](https://github.com/microsoft/PyRIT) — Microsoft 开源的生成式 AI 风险识别与红队测试框架。
+- [langwatch/scenario](https://github.com/langwatch/scenario) — 通过模拟用户和边界场景测试多轮 Agent 行为，并可接入不同评估框架。
+- [snyk/agent-scan](https://github.com/snyk/agent-scan) — 扫描 Agent、MCP Server 和 Skills 中提示注入与安全问题的工具。
 
 ## FDE 会员网络
 

@@ -8,10 +8,10 @@ We prefer credible books, guides, production practices, real implementations, an
 
 ## Contents
 
-- [Getting started](#getting-started) - 18
-- [Best practices](#best-practices) - 12
+- [Getting started](#getting-started) - 19
+- [Best practices](#best-practices) - 15
 - [Cases and reference implementations](#cases-and-reference-implementations) - 8
-- [Tools](#tools) - 12
+- [Tools](#tools) - 17
 - [FDE member network](#fde-member-network)
 - [Hosted Chinese resources](#hosted-chinese-resources) - 4
 
@@ -35,6 +35,7 @@ We prefer credible books, guides, production practices, real implementations, an
 - [dair-ai/MLOPs-Primer](https://github.com/dair-ai/MLOPs-Primer) - Curated foundation for learning MLOps.
 - [libaice/Awesome-FDE](https://github.com/libaice/Awesome-FDE) - Bilingual collection of FDE resources, companies, core skills, and interview preparation materials.
 - [bryanyzhu/agentic-ai-system-course](https://github.com/bryanyzhu/agentic-ai-system-course) - Course skeleton for designing and operating production agents.
+- [alexeygrigorev/ai-engineering-field-guide](https://github.com/alexeygrigorev/ai-engineering-field-guide) - Data-backed guide to AI engineering roles, including responsibilities and skills extracted from 146 FDE job postings.
 
 ## Best practices
 
@@ -50,6 +51,9 @@ We prefer credible books, guides, production practices, real implementations, an
 - [suboss87/FDEOps](https://github.com/suboss87/FDEOps) - Local-first engagement memory, delivery methodology, and agent skills covering discovery through handoff.
 - [NVIDIA-NeMo/Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Programmable guardrails for LLM applications.
 - [GoogleCloudPlatform/agent-starter-pack](https://github.com/GoogleCloudPlatform/agent-starter-pack) - Production agent templates with CI/CD, evaluation, and observability.
+- [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) - Twelve engineering principles for reliable customer-facing agent systems.
+- [databricks/databricks-agent-skills](https://github.com/databricks/databricks-agent-skills) - Official skills encoding Databricks data, governance, evaluation, and deployment workflows for coding agents.
+- [anthropics/cwc-long-running-agents](https://github.com/anthropics/cwc-long-running-agents) - First-party harness primitives and evaluator loops for reliable long-running Claude agents.
 
 ## Cases and reference implementations
 
@@ -76,6 +80,11 @@ We prefer credible books, guides, production practices, real implementations, an
 - [langgenius/dify](https://github.com/langgenius/dify) - Platform for agent workflows, RAG, models, and tools.
 - [daytonaio/daytona](https://github.com/daytonaio/daytona) - Secure infrastructure for running AI-generated code.
 - [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) - Runtime and orchestration framework for resilient agents.
+- [google/agents-cli](https://github.com/google/agents-cli) - CLI and skills for creating, evaluating, governing, and deploying agents on Google Cloud.
+- [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) - Secure, extensible sandbox runtime with SDK, MCP, Docker, and Kubernetes support.
+- [microsoft/PyRIT](https://github.com/microsoft/PyRIT) - Generative AI risk identification and red-team framework from Microsoft.
+- [langwatch/scenario](https://github.com/langwatch/scenario) - Multi-turn agent testing with simulated users, edge cases, and framework-agnostic evaluation.
+- [snyk/agent-scan](https://github.com/snyk/agent-scan) - Security scanner for prompt injection and vulnerabilities in agents, MCP servers, and skills.
 
 ## FDE member network
 
