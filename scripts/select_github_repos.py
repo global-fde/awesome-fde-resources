@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish the manually curated 59-repository Global FDE catalog."""
+"""Publish the manually curated Global FDE repository catalog."""
 
 from __future__ import annotations
 
@@ -15,7 +15,6 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "resources" / "github-candidates.json"
 YAML_OUTPUT = ROOT / "resources" / "github-repositories.yml"
-TARGET = 59
 MINIMUM_STARS = 50
 QUOTAS = {
     "getting-started": 19,
@@ -513,7 +512,8 @@ def main() -> None:
     raw = json.loads(INPUT.read_text(encoding="utf-8"))
     selected = select(raw["repositories"])
     counts = Counter(repo["category"] for repo in selected)
-    if len(selected) != TARGET or counts != Counter(QUOTAS):
+    target = sum(QUOTAS.values())
+    if len(selected) != target or counts != Counter(QUOTAS):
         raise RuntimeError(f"Selection invariant failed: total={len(selected)}, counts={counts}")
     payload = {
         "schema_version": 1,

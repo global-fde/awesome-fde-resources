@@ -1,6 +1,8 @@
 # Resource data
 
-[`github-repositories.yml`](github-repositories.yml) is the machine-readable source for the 59 repositories listed in both language versions of the README.
+[`github-repositories.yml`](github-repositories.yml) is the machine-readable
+source for the curated repositories listed in both language versions of the
+README. The current total is recorded in `repository_count`.
 
 Publication rules:
 
@@ -11,5 +13,10 @@ Publication rules:
 - no archived, disabled, duplicate, or description-less repositories.
 
 Search candidates are produced by [`discover_github_repos.py`](../scripts/discover_github_repos.py). Only repositories explicitly added to `CURATED_REPOSITORIES` in [`select_github_repos.py`](../scripts/select_github_repos.py) are published.
+
+The catalog can grow beyond 59 entries. Update the curated list and category
+quota together, then update the matching section in both READMEs. CI validates
+the category, order, count, URL, review metadata, and bilingual parity. See the
+[maintainer workflow](MAINTENANCE.md) for the complete process.
 
 External resources remain under their owners' licenses.

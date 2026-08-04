@@ -1,0 +1,32 @@
+name: Candidate discovery
+
+on:
+  schedule:
+    - cron: "40 2 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Discover candidates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/discover_github_repos.py
+      - name: Upload review snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: fde-candidates-${{ github.run_id }}
+          path: resources/github-candidates.json
+          retention-days: 14
+          if-no-files-found: error

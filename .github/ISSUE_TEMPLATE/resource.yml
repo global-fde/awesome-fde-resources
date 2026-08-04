@@ -29,6 +29,16 @@ body:
         - Other
     validations:
       required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Relationship to FDE practice
+      description: Choose direct only when the resource explicitly addresses Forward Deployed Engineering.
+      options:
+        - Directly about FDE
+        - Supports production AI delivery
+    validations:
+      required: true
   - type: textarea
     id: relevance
     attributes:
@@ -36,6 +46,18 @@ body:
       description: Explain the concrete decision, method, system, or reusable lesson.
     validations:
       required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Maintenance and quality evidence
+      description: Provide concrete evidence such as recent releases, active maintenance, adoption, original research, or production use.
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language or regional context
+      description: For example, English, Chinese, global, EU regulatory context, or China deployment context.
   - type: dropdown
     id: evidence
     attributes:

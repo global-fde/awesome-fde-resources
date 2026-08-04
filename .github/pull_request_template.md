@@ -17,7 +17,9 @@
 - [ ] The description is factual and not promotional.
 - [ ] The resource does not expose confidential or unauthorized information.
 - [ ] I checked for duplicates.
+- [ ] I updated `resources/github-repositories.yml` when changing the GitHub catalog.
 - [ ] I updated both `README.md` and `README.zh-CN.md` when changing the curated list.
+- [ ] I ran `python scripts/validate_catalog.py` locally.
 
 ## Conflict of interest
 

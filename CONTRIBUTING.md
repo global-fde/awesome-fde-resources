@@ -76,18 +76,6 @@ maintenance, practitioner value, and community adoption together. Emerging
 projects with strong field evidence are welcome; generic AI lists and projects
 with only a title-level connection to FDE are not.
 
-### C. Member profile
-
-Use this route for a practitioner, delivery team, domain expert, or technology
-partner that can provide verifiable FDE capability.
-
-1. Read the [member directory rules](members/README.md).
-2. Copy [`members/PROFILE_TEMPLATE.md`](members/PROFILE_TEMPLATE.md).
-3. Link public projects, delivery evidence, and reusable resources.
-4. Remove confidential customer information.
-5. Disclose employment, ownership, investment, referral, and other relevant
-   commercial relationships.
-
 ### B. Hosted Global FDE resource
 
 Use this route for an original or explicitly authorized guide, report,
@@ -103,6 +91,18 @@ template, checklist, field note, transcript, or anonymized case.
 
 Public access is not the same as permission to republish. If rights are unclear,
 submit an external link instead.
+
+### C. Member profile
+
+Use this route for a practitioner, delivery team, domain expert, or technology
+partner that can provide verifiable FDE capability.
+
+1. Read the [member directory rules](members/README.md).
+2. Copy [`members/PROFILE_TEMPLATE.md`](members/PROFILE_TEMPLATE.md).
+3. Link public projects, delivery evidence, and reusable resources.
+4. Remove confidential customer information.
+5. Disclose employment, ownership, investment, referral, and other relevant
+   commercial relationships.
 
 ## Pull request scope
 
