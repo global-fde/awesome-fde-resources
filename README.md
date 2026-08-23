@@ -82,6 +82,7 @@ We prefer credible books, guides, production practices, real implementations, an
 - [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) - Runtime and orchestration framework for resilient agents.
 - [google/agents-cli](https://github.com/google/agents-cli) - CLI and skills for creating, evaluating, governing, and deploying agents on Google Cloud.
 - [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) - Secure, extensible sandbox runtime with SDK, MCP, Docker, and Kubernetes support.
+- [DrOlu/RTerm](https://github.com/DrOlu/RTerm) - AI-native terminal and agentic-AI operations platform for Forward Deployed Engineers: SSH/WinRM/serial reach into customer estates, fleet execution under policy (allow/deny/escalate + maker/checker), MOP-gated production changes with automatic rollback, SRE observability with AI root-cause analysis, and tamper-evident audit evidence.
 - [microsoft/PyRIT](https://github.com/microsoft/PyRIT) - Generative AI risk identification and red-team framework from Microsoft.
 - [langwatch/scenario](https://github.com/langwatch/scenario) - Multi-turn agent testing with simulated users, edge cases, and framework-agnostic evaluation.
 - [snyk/agent-scan](https://github.com/snyk/agent-scan) - Security scanner for prompt injection and vulnerabilities in agents, MCP servers, and skills.
