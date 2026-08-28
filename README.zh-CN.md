@@ -8,7 +8,7 @@
 
 ## 目录
 
-- [入门与系统学习](#入门与系统学习) — 19
+- [入门与系统学习](#入门与系统学习) — 20
 - [最佳实践](#最佳实践) — 15
 - [案例与参考实现](#案例与参考实现) — 8
 - [工具](#工具) — 17
@@ -36,6 +36,7 @@
 - [libaice/Awesome-FDE](https://github.com/libaice/Awesome-FDE) — 中英文 FDE 资料、相关公司、核心技能与面试准备清单。
 - [bryanyzhu/agentic-ai-system-course](https://github.com/bryanyzhu/agentic-ai-system-course) — 生产级 Agent 系统设计与运行课程。
 - [alexeygrigorev/ai-engineering-field-guide](https://github.com/alexeygrigorev/ai-engineering-field-guide) — 基于真实岗位数据的 AI Engineering 指南，其中包含对 146 个 FDE 岗位职责与技能的分析。
+- [calmrocks/ai-engineer-notebooks](https://github.com/calmrocks/ai-engineer-notebooks) — 零框架、可直接运行的 Colab 笔记本，在免费 Groq API 上讲授应用型 LLM / AI 工程全栈，并包含端到端案例研究。
 
 ## 最佳实践
 
