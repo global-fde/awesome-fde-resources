@@ -1,10 +1,10 @@
 schema_version: 1
 generated_on: '2026-08-03'
-repository_count: 59
+repository_count: 60
 direct_fde_count: 5
-supporting_repository_count: 54
+supporting_repository_count: 55
 category_counts:
-  getting-started: 19
+  getting-started: 20
   best-practices: 15
   case-studies: 8
   tools: 17
@@ -313,6 +313,23 @@ repositories:
   why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
   editorial_state: reviewed
   reviewed_on: '2026-08-03'
+- name: calmrocks/ai-engineer-notebooks
+  url: https://github.com/calmrocks/ai-engineer-notebooks
+  description: Framework-free, runnable Colab notebooks teaching the applied-LLM / AI-engineer stack on the free Groq API, with end-to-end case studies.
+  category: getting-started
+  direct_fde: false
+  tags:
+  - learning
+  - rag
+  - agents
+  - evals
+  primary_language: Jupyter Notebook
+  license: MIT
+  stars_snapshot: 57
+  updated_at: '2026-08-27T21:35:30Z'
+  why_it_matters: Provides structured knowledge that helps practitioners build FDE foundations.
+  editorial_state: reviewed
+  reviewed_on: '2026-08-27'
 - name: EthicalML/awesome-production-machine-learning
   url: https://github.com/EthicalML/awesome-production-machine-learning
   description: A curated list of awesome open source libraries to deploy, monitor, version and scale your machine
