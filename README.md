@@ -11,7 +11,7 @@ We prefer credible books, guides, production practices, real implementations, an
 - [Getting started](#getting-started) - 19
 - [Best practices](#best-practices) - 15
 - [Cases and reference implementations](#cases-and-reference-implementations) - 8
-- [Tools](#tools) - 17
+- [Tools](#tools) - 18
 - [FDE member network](#fde-member-network)
 - [Hosted Chinese resources](#hosted-chinese-resources) - 4
 
@@ -85,6 +85,7 @@ We prefer credible books, guides, production practices, real implementations, an
 - [microsoft/PyRIT](https://github.com/microsoft/PyRIT) - Generative AI risk identification and red-team framework from Microsoft.
 - [langwatch/scenario](https://github.com/langwatch/scenario) - Multi-turn agent testing with simulated users, edge cases, and framework-agnostic evaluation.
 - [snyk/agent-scan](https://github.com/snyk/agent-scan) - Security scanner for prompt injection and vulnerabilities in agents, MCP servers, and skills.
+- [atulkapoor/fde-framework](https://github.com/atulkapoor/fde-framework) - Engagement framework from problem statement to deployable AI project: typed-fact discovery, pre-build gates, evidence-cited decisions, generated evals and runbooks.
 
 ## FDE member network
 
