@@ -85,7 +85,7 @@ We prefer credible books, guides, production practices, real implementations, an
 - [microsoft/PyRIT](https://github.com/microsoft/PyRIT) - Generative AI risk identification and red-team framework from Microsoft.
 - [langwatch/scenario](https://github.com/langwatch/scenario) - Multi-turn agent testing with simulated users, edge cases, and framework-agnostic evaluation.
 - [snyk/agent-scan](https://github.com/snyk/agent-scan) - Security scanner for prompt injection and vulnerabilities in agents, MCP servers, and skills.
-- [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) - Open-source FDE harness: ontology-driven workflows plus commit-time audit of AI coding agent changes (24 rules over git diffs, HMAC-signed tamper-evident history, MCP tools for governance). MIT.
+- [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) - Open-source FDE harness: ontology-driven workflows plus commit-time audit of AI coding agent changes (25 rules over git diffs, HMAC-signed tamper-evident history, MCP tools for governance). MIT.
 
 ## FDE member network
 
