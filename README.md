@@ -8,7 +8,7 @@ We prefer credible books, guides, production practices, real implementations, an
 
 ## Contents
 
-- [Getting started](#getting-started) - 19
+- [Getting started](#getting-started) - 20
 - [Best practices](#best-practices) - 15
 - [Cases and reference implementations](#cases-and-reference-implementations) - 8
 - [Tools](#tools) - 17
@@ -36,6 +36,7 @@ We prefer credible books, guides, production practices, real implementations, an
 - [libaice/Awesome-FDE](https://github.com/libaice/Awesome-FDE) - Bilingual collection of FDE resources, companies, core skills, and interview preparation materials.
 - [bryanyzhu/agentic-ai-system-course](https://github.com/bryanyzhu/agentic-ai-system-course) - Course skeleton for designing and operating production agents.
 - [alexeygrigorev/ai-engineering-field-guide](https://github.com/alexeygrigorev/ai-engineering-field-guide) - Data-backed guide to AI engineering roles, including responsibilities and skills extracted from 146 FDE job postings.
+- [FDE interview round guide](https://fdedispatch.com/fde-interview-loop-field-guide/) - Each round type in Forward Deployed Engineer loops (customer problem decomposition, debugging in a messy environment, system design under customer constraints, work trial, deployment retrospective, customer role-play) and what it tests that a standard SWE loop does not.
 
 ## Best practices
 
